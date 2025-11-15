@@ -47,4 +47,4 @@ generated_ideas/
 # OS
 .DS_Store
 Thumbs.db
-generated_scripts/
+# generated_scripts/
