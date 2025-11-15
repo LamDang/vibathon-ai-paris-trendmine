@@ -1,0 +1,4 @@
+Do not generate markdown doc unless explicitely asked
+---
+alwaysApply: true
+---

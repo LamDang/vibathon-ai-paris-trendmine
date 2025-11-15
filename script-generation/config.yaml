@@ -1,0 +1,115 @@
+# Configuration for Video Idea Generator
+
+# Predefined topics for video generation
+topics:
+  - name: "Tech Trends 2025"
+    description: "Latest technology trends and innovations"
+    target_audience: "Tech enthusiasts, early adopters, professionals"
+    keywords: ["AI", "tech", "innovation", "future", "gadgets"]
+    
+  - name: "Productivity Hacks"
+    description: "Tips and tricks to boost productivity"
+    target_audience: "Professionals, students, entrepreneurs"
+    keywords: ["productivity", "efficiency", "time management", "work"]
+    
+  - name: "Healthy Living"
+    description: "Health, fitness, and wellness content"
+    target_audience: "Health-conscious individuals, fitness enthusiasts"
+    keywords: ["health", "fitness", "wellness", "nutrition", "exercise"]
+    
+  - name: "Travel Adventures"
+    description: "Travel destinations, tips, and experiences"
+    target_audience: "Travelers, adventure seekers, digital nomads"
+    keywords: ["travel", "adventure", "destinations", "culture", "explore"]
+    
+  - name: "Food & Cooking"
+    description: "Recipes, cooking tips, and food content"
+    target_audience: "Food lovers, home cooks, foodies"
+    keywords: ["food", "cooking", "recipe", "culinary", "delicious"]
+    
+  - name: "Personal Finance"
+    description: "Money management and financial advice"
+    target_audience: "Young professionals, investors, savers"
+    keywords: ["finance", "money", "investing", "savings", "wealth"]
+    
+  - name: "DIY & Crafts"
+    description: "Do-it-yourself projects and creative crafts"
+    target_audience: "Creative individuals, hobbyists, makers"
+    keywords: ["DIY", "crafts", "creative", "handmade", "tutorial"]
+    
+  - name: "Entertainment & Pop Culture"
+    description: "Movies, TV shows, music, and celebrity content"
+    target_audience: "Entertainment fans, pop culture enthusiasts"
+    keywords: ["entertainment", "movies", "music", "celebrity", "trending"]
+
+# AI Provider Configuration
+ai_config:
+  default_provider: "mistral"  # mistral, gemini, or openai
+  temperature: 0.8
+  max_tokens: 2000
+  
+  # Provider-specific models
+  providers:
+    mistral:
+      default_model: "mistral-large-latest"
+      available_models:
+        - "mistral-large-latest"
+        - "mistral-small-latest"
+        - "mistral-medium-latest"
+    
+    gemini:
+      default_model: "gemini-1.5-flash"
+      available_models:
+        - "gemini-1.5-flash"
+        - "gemini-1.5-pro"
+        - "gemini-pro"
+    
+    openai:
+      default_model: "gpt-4"
+      available_models:
+        - "gpt-4"
+        - "gpt-4-turbo-preview"
+        - "gpt-3.5-turbo"
+
+# Platform-specific settings
+platforms:
+  tiktok:
+    max_duration: 60
+    min_duration: 15
+    optimal_duration: 21
+    hashtag_limit: 5
+    
+  instagram_reels:
+    max_duration: 90
+    min_duration: 15
+    optimal_duration: 30
+    hashtag_limit: 30
+    
+  youtube_shorts:
+    max_duration: 60
+    min_duration: 15
+    optimal_duration: 45
+    hashtag_limit: 10
+    
+  twitter:
+    max_duration: 140
+    min_duration: 15
+    optimal_duration: 30
+    hashtag_limit: 5
+
+# Content tone options
+tone_options:
+  - "engaging and authentic"
+  - "educational and informative"
+  - "humorous and entertaining"
+  - "inspirational and motivating"
+  - "professional and authoritative"
+  - "casual and friendly"
+  - "dramatic and suspenseful"
+
+# Output settings
+output:
+  default_format: "json"
+  save_directory: "./generated_ideas"
+  include_timestamp: true
+
