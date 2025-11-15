@@ -9,6 +9,8 @@ import json
 import os
 from datetime import datetime
 from typing import List, Dict
+import re
+from html import unescape
 
 import requests
 from dotenv import load_dotenv
@@ -19,6 +21,68 @@ load_dotenv()
 
 NEWS_API_TOP_HEADLINES_ENDPOINT = "https://newsapi.org/v2/top-headlines"
 NEWS_API_EVERYTHING_ENDPOINT = "https://newsapi.org/v2/everything"
+JINA_SCRAPE_BASE = "https://r.jina.ai/"
+USER_AGENT = (
+    "TrendmineScriptGenerator/1.0 "
+    "(https://github.com/your-org/your-repo; contact: developer@example.com)"
+)
+JINA_WARNING_EMITTED = False
+
+
+def _strip_html_tags(html_text: str) -> str:
+    """Remove script/style blocks and HTML tags, returning plain text."""
+    if not html_text:
+        return ""
+    no_scripts = re.sub(
+        r"<(script|style).*?>.*?</\1>",
+        "",
+        html_text,
+        flags=re.DOTALL | re.IGNORECASE
+    )
+    no_tags = re.sub(r"<[^>]+>", " ", no_scripts)
+    text = unescape(no_tags)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def fetch_article_fulltext(url: str, api_key: str | None = None) -> str | None:
+    """Fetch the readable content of an article via Jina."""
+    if not url:
+        return None
+    
+    # First try Jina if an API key is available
+    jina_api_key = api_key if api_key is not None else os.getenv("JINA_API_KEY")
+    if jina_api_key:
+        headers = {"Authorization": f"Bearer {jina_api_key}"}
+        scrape_url = f"{JINA_SCRAPE_BASE}{url}"
+        try:
+            response = requests.get(scrape_url, headers=headers, timeout=15)
+            response.raise_for_status()
+            text = response.text.strip()
+            if len(text) > 20:
+                return text
+        except requests.RequestException as exc:
+            print(f"⚠️  Failed to fetch article body via Jina for {url}: {exc}")
+    
+    # Fallback: fetch the page directly and strip HTML tags
+    try:
+        response = requests.get(
+            url,
+            timeout=15,
+            headers={"User-Agent": USER_AGENT}
+        )
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"⚠️  Direct fetch failed for {url}: {exc}")
+        return None
+    
+    content_type = response.headers.get("content-type", "")
+    if "text/html" in content_type.lower():
+        text = _strip_html_tags(response.text)
+    else:
+        text = response.text.strip()
+    
+    return text if len(text) > 20 else None
 
 
 def fetch_news_headlines(
@@ -68,16 +132,26 @@ def fetch_news_headlines(
         return []
     
     articles = []
+    global JINA_WARNING_EMITTED
+    jina_api_key = os.getenv("JINA_API_KEY")
+    if not jina_api_key and not JINA_WARNING_EMITTED:
+        print("ℹ️  JINA_API_KEY not set. Attempting direct article fetches, which may fail more often.")
+        JINA_WARNING_EMITTED = True
+    
     for article in data.get("articles", []):
         title = (article.get("title") or "").strip()
         if not title:
             continue
+        full_text = None
+        if article.get("url"):
+            full_text = fetch_article_fulltext(article["url"], jina_api_key)
         articles.append({
             "title": title,
             "description": (article.get("description") or article.get("content") or "").strip(),
             "url": article.get("url"),
             "source": (article.get("source") or {}).get("name"),
-            "publishedAt": article.get("publishedAt")
+            "publishedAt": article.get("publishedAt"),
+            "full_content": full_text
         })
     
     return articles[:max_articles]
@@ -101,6 +175,9 @@ def build_news_context(news_articles: List[Dict[str, str]]) -> str:
             parts.append(f"   Summary: {article['description']}")
         if article.get("url"):
             parts.append(f"   URL: {article['url']}")
+        if article.get("full_content"):
+            parts.append("   FULL ARTICLE:")
+            parts.append(f"{article['full_content']}")
         lines.extend(parts)
         lines.append("")
     return "\n".join(lines).strip()

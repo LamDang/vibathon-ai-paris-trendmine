@@ -1,0 +1,1004 @@
+VIDEO SCRIPTS FOR: nvidia new gpu
+Generated: 2025-11-15 14:29:02
+Total Scripts: 1
+
+======================================================================
+News Headlines Used:
+ - Web Review, Week 2025-46 (Ipsquad.net)
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+ - China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall (Digitimes)
+   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…
+   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html
+ - NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time (Techpowerup.com)
+   Summary: GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have finally dip below their MSRPs, it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Neweg…
+   URL: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time
+
+======================================================================
+News Context Provided to AI:
+Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:
+
+1. Web Review, Week 2025-46 — Ipsquad.net
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+2. China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall — Digitimes
+   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…
+   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html
+
+3. NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time — Techpowerup.com
+   Summary: GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have finally dip below their MSRPs, it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Neweg…
+   URL: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time
+   FULL ARTICLE:
+Title: NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time
+
+URL Source: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time
+
+Markdown Content:
+NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time | TechPowerUp
+
+===============
+
+![Image 4](https://www.techpowerup.com/reviyuu/b784/_f95d1845.png)
+
+[](https://www.techpowerup.com/reviyuu/b784/3516er/images/gmchjhj.png)
+
+[](https://www.techpowerup.com/reviyuu/b784/3516er/images/gmchjhj.png)
+
+[](https://www.techpowerup.com/ "TechPowerUp")
+
+[![Image 5](https://www.techpowerup.com/reviyuu/b784/_36377b44.png)](https://www.techpowerup.com/reviyuu/b784/3094er/images/gmchjhj.png)
+
+- [x] - [x] 
+*   [Home](https://www.techpowerup.com/)
+*   [Reviews](https://www.techpowerup.com/review/)
+*   [Forums](https://www.techpowerup.com/forums/)
+*   [Downloads](https://www.techpowerup.com/download/)
+*   [Case Mod Gallery](https://www.techpowerup.com/gallery/)
+*   Databases - [x] 
+    *   Databases… Back 
+    *   [VGA Bios Collection](https://www.techpowerup.com/vgabios/)
+    *   [GPU Database](https://www.techpowerup.com/gpu-specs/)
+    *   [CPU Database](https://www.techpowerup.com/cpu-specs/)
+    *   [SSD Database](https://www.techpowerup.com/ssd-specs/)
+    *   [Review Database](https://www.techpowerup.com/reviewdb/)
+    *   [Upcoming Hardware](https://www.techpowerup.com/review/future-hardware-releases/)
+
+*   Our Software - [x] 
+    *   Our Software… Back 
+    *   [GPU-Z](https://www.techpowerup.com/gpuz/)
+    *   [RealTemp](https://www.techpowerup.com/realtemp/)
+    *   [NVCleanstall](https://www.techpowerup.com/nvcleanstall/)
+    *   [TPUCapture](https://www.techpowerup.com/tpucapture/)
+    *   [MemTest64](https://www.techpowerup.com/memtest64/)
+
+*   More - [x] 
+    *   More… Back 
+    *   [Articles](https://www.techpowerup.com/articles/)
+    *   [Old Stuff](https://www.techpowerup.com/oldstuff/)
+    *   [Computer Trivia](https://www.techpowerup.com/trivia/)
+    *   [TPU Live](https://www.techpowerup.com/live/)
+    *   [RAM Latency Calculator](https://www.techpowerup.com/dram-latency/)
+
+*   [Contact Us](https://www.techpowerup.com/contact/)
+*   [](https://www.facebook.com/TechPowerUp "Facebook")[](https://x.com/TechPowerUp "X")[](https://bsky.app/profile/techpowerup.com "Bluesky")[](https://www.patreon.com/TechPowerUp "Patreon")[](https://www.youtube.com/c/TechPowerUp "YouTube")[](https://www.techpowerup.com/rss/ "RSS")
+
+Nov 15th, 2025 07:28 CST[change timezone](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time#)
+
+[Sign in](https://www.techpowerup.com/forums/login) / [Register](https://www.techpowerup.com/forums/register)
+
+Latest GPU Drivers
+==================
+
+*   [NVIDIA GeForce 581.80 WHQL](https://www.techpowerup.com/download/nvidia-geforce-graphics-drivers/)
+*   [AMD Radeon 25.11.1 WHQL](https://www.techpowerup.com/download/amd-radeon-graphics-drivers/)
+*   [Intel Arc & iGPU 101.8250 Beta](https://www.techpowerup.com/download/intel-integrated-graphics-drivers/)
+
+[![Image 6](https://www.techpowerup.com/reviyuu/b784/_de98d1b5.png)](https://www.techpowerup.com/reviyuu/b784/3048er/images/gmchjhj.png)
+
+New Forum Posts
+===============
+
+*   07:27 by unwind-protect [Help with parts list for building a local backup server / NAS (for music projects)?](https://www.techpowerup.com/forums/threads/help-with-parts-list-for-building-a-local-backup-server-nas-for-music-projects.340400/unread) (27) 
+*   07:20 by Ruru [Post your cooling.](https://www.techpowerup.com/forums/threads/post-your-cooling.322662/unread) (365) 
+*   07:20 by Krit [RX 9000 series GPU Owners Club](https://www.techpowerup.com/forums/threads/rx-9000-series-gpu-owners-club.333786/unread) (1554) 
+*   07:17 by Dr. Dro [question on asrock x58 extreme 3 and hwinfo64](https://www.techpowerup.com/forums/threads/question-on-asrock-x58-extreme-3-and-hwinfo64.342936/unread) (4) 
+*   07:09 by TechBuyingHavoc [Battlefield 6](https://www.techpowerup.com/forums/threads/battlefield-6.339603/unread) (634) 
+*   06:35 by AusWolf [Real difference between 9070 xt and 5080?](https://www.techpowerup.com/forums/threads/real-difference-between-9070-xt-and-5080.342869/unread) (88) 
+*   06:23 by DaemonForce [1/4 pcie card in regular slot](https://www.techpowerup.com/forums/threads/1-4-pcie-card-in-regular-slot.342931/unread) (4) 
+*   05:50 by ARF [What phone you use as your daily driver? And, a discussion of them.](https://www.techpowerup.com/forums/threads/what-phone-you-use-as-your-daily-driver-and-a-discussion-of-them.287275/unread) (1930) 
+*   05:32 by Logic [Would you consider moving away from Windows?](https://www.techpowerup.com/forums/threads/would-you-consider-moving-away-from-windows.342088/unread) (163) 
+*   05:25 by CiTay [Samsung 870 EVO - Beware, certain batches prone to failure!](https://www.techpowerup.com/forums/threads/samsung-870-evo-beware-certain-batches-prone-to-failure.291504/unread) (1332) 
+
+[![Image 7](https://www.techpowerup.com/reviyuu/b784/_33ec76ce.png)](https://www.techpowerup.com/reviyuu/b784/3351er/images/gmchjhj.png)
+
+Popular Reviews
+===============
+
+*   Nov 13th, 2025[Corsair Air 5400 RS-R ARGB Review](https://www.techpowerup.com/review/corsair-air-5400-rs-r-argb/)
+*   Nov 14th, 2025[ASUS ROG Xbox Ally X Review](https://www.techpowerup.com/review/asus-rog-xbox-ally-x/)
+*   Nov 12th, 2025[Samsung ViewFinity S9 Review - A Different Take on the Apple Studio Display](https://www.techpowerup.com/review/samsung-viewfinity-s9/)
+*   Feb 27th, 2023[AMD Ryzen 9 7950X3D Review - Best of Both Worlds](https://www.techpowerup.com/review/amd-ryzen-9-7950x3d/)
+*   Nov 13th, 2025[ASRock X870 Live Mixer Wi-Fi Review](https://www.techpowerup.com/review/asrock-x870-live-mixer-wi-fi/)
+*   Nov 11th, 2025[Upcoming Hardware Launches 2025 (Updated Nov 2025)](https://www.techpowerup.com/review/future-hardware-releases/)
+*   Nov 10th, 2025[Gigabyte X870E Aorus Pro X3D Ice Review](https://www.techpowerup.com/review/gigabyte-x870e-aorus-pro-x3d-ice/)
+*   Aug 10th, 2024[We found the Missing Performance: Zen 5 Tested with SMT Disabled](https://www.techpowerup.com/review/amd-ryzen-9-9700x-performance-smt-disabled/)
+*   Nov 11th, 2025[HAVN BF 360 Flow Review](https://www.techpowerup.com/review/havn-bf-360-flow/)
+*   Nov 6th, 2024[AMD Ryzen 7 9800X3D Review - The Best Gaming Processor](https://www.techpowerup.com/review/amd-ryzen-7-9800x3d/)
+
+TPU on YouTube
+==============
+
+[](https://www.youtube.com/watch?v=zLXf2VGis3U)
+Controversial News Posts
+========================
+
+*   [No More Game Optimizations for AMD Radeon RX 6000 and RX 5000, Still Part of Main Driver Branch](https://www.techpowerup.com/342449/no-more-game-optimizations-for-amd-radeon-rx-6000-and-rx-5000-still-part-of-main-driver-branch) (250) 
+*   [Valve Announces Steam Machine, Steam Frame, and Steam Controller](https://www.techpowerup.com/342866/valve-announces-steam-machine-steam-frame-and-steam-controller) (160) 
+*   [Windows 11 25H2 October Update Bug Renders Recovery Environment Unusable](https://www.techpowerup.com/342032/windows-11-25h2-october-update-bug-renders-recovery-environment-unusable) (160) 
+*   [AMD Clarifies "Maintenance Mode" for Radeon RX 5000/6000 Series, First-Day Game Support Remains](https://www.techpowerup.com/342481/amd-clarifies-maintenance-mode-for-radeon-rx-5000-6000-series-first-day-game-support-remains) (160) 
+*   [12V-2×6 Power Connector Burns on Sapphire Radeon RX 9070 XT GPU](https://www.techpowerup.com/342541/12v-2x6-power-connector-burns-on-sapphire-radeon-rx-9070-xt-gpu) (108) 
+*   [Microsoft Breaks Localhost with Windows 11 October Update, Users Forced to Revert](https://www.techpowerup.com/341976/microsoft-breaks-localhost-with-windows-11-october-update-users-forced-to-revert) (105) 
+*   [AMD Could Launch 16-Core Ryzen 9 9950X3D2 CPU with 192 MB L3 Cache and 200 W TDP](https://www.techpowerup.com/342095/amd-could-launch-16-core-ryzen-9-9950x3d2-cpu-with-192-mb-l3-cache-and-200-w-tdp) (91) 
+*   [Creative Technology Launches Kickstarter Campaign for Sound Blaster Re:Imagine](https://www.techpowerup.com/342347/creative-technology-launches-kickstarter-campaign-for-sound-blaster-re-imagine) (88) 
+
+Wednesday, November 12th 2025
+
+![Image 8: NVIDIA](https://tpucdn.com/images/news/nvidia-v1762951592.png)
+[NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time)
+=================================================================================================================================================================
+
+ by [AleksandarK](https://www.techpowerup.com/forums/members/187454/) Wednesday, 10:30 [Discuss (15 Comments)](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time#comments)
+
+GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have [finally dip below their MSRPs](https://www.techpowerup.com/342533/amd-radeon-rx-9070-and-rx-9070-xt-finally-reach-msrp), it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Newegg applied a rebate that brought widely available listings to $729.99, under the $749 MSRP tied to this "Blackwell" SKU. The new pricing may not instantly alter the narrative around the 5070 Ti, but rather give this GPU some price breathing room for card that carried persistent price premiums, turning some buyers away.
+
+ The SKU in question is MSI Ventus 3X OC BLACK edition, which apparently has not been listed on MSI's official site, meaning that retailers are now the exclusive place to get this GPU. We had a pleasure of reviewing the non-BLACK [MSI RTX 5070 Ti Ventus 3X OC GPU](https://www.techpowerup.com/review/msi-geforce-rtx-5070-ti-ventus-3x/), which stood out as a sensible and well-rounded offering. Its factory overclock, strong headroom for further tuning and efficient gaming power draw make it especially attractive to 1440p high refresh gamers, compact-system builders and overclocking enthusiasts. Taking performance, features and price into account we awarded the Ventus 3X OC a "Recommended" badge. It is a very good value for its audience, but it missed our Editor's Choice due to the thermal and noise trade-offs. However, at the time the actual retail price was a bit higher than MSRP at launch. Now, PC builders can get this GPU at prices below MSRP from the [Newegg listing here](https://www.newegg.com/msi-rtx-5070-ti-16g-ventus-3x-oc-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/N82E16814137993).
+
+[![Image 9](https://tpucdn.com/img/wbyG9RvRzZcxC1pS_thm.jpg)](https://www.techpowerup.com/img/wbyG9RvRzZcxC1pS.jpg)[![Image 10](https://tpucdn.com/img/CVIVYOiW7auTmjik_thm.jpg)](https://www.techpowerup.com/img/CVIVYOiW7auTmjik.jpg)[![Image 11](https://tpucdn.com/img/GVqjBMo3JUolHJ9t_thm.jpg)](https://www.techpowerup.com/img/GVqjBMo3JUolHJ9t.jpg)
+
+ Source: [via VideoCardz](https://videocardz.com/newz/msi-rtx-5070-ti-falls-to-730-at-newegg-now-below-nvidia-msrp)
+
+[](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time "Share on Facebook")
+
+[](https://x.com/intent/post?text=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time%20http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time%20via%20%40TechPowerUp "Share on X")
+
+[](https://www.reddit.com/submit?url=http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time&title=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time "Share on Reddit")
+
+[](mailto:?subject=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time&body=http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time%0D%0A%0D%0AGPU%20prices%20are%20finally%20coming%20down.%20After%20we%20saw%20AMD%26%23039%3Bs%20Radeon%20RX%209070%20and%20Radeon%20RX%209070%20XT%20graphics%20cards%20have%20finally%20dip%20below%20their%20MSRPs%2C%20it%20seems%20that%20NVIDIA%20cards%20are%20now%20in%20order.%20NVIDIA%20GeForce%20RTX%205070%20Ti%20slipped%20below%20its%20MSRP%20this%20week%20after%20Newegg%20applied%20a%20rebate%20that%20brought%20widely... "Share via E-Mail")
+
+[](whatsapp://send?text=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time%0D%0A%0D%0Ahttp%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time%0D%0A%0D%0AGPU%20prices%20are%20finally%20coming%20down.%20After%20we%20saw%20AMD%26%23039%3Bs%20Radeon%20RX%209070%20and%20Radeon%20RX%209070%20XT%20graphics%20cards%20have%20finally%20dip%20below%20their%20MSRPs%2C%20it%20seems%20that%20NVIDIA%20cards%20are%20now%20in%20order.%20NVIDIA%20GeForce%20RTX%205070%20Ti%20slipped%20below%20its%20MSRP%20this%20week%20after%20Newegg%20applied%20a%20rebate%20that%20brought%20widely... "Share via WhatsApp")
+
+### Related News
+
+*   Tags:
+*   [Blackwell](https://www.techpowerup.com/news-tags/Blackwell)
+*   [GeForce](https://www.techpowerup.com/news-tags/GeForce)
+*   [GPU](https://www.techpowerup.com/news-tags/GPU)
+*   [MSI](https://www.techpowerup.com/news-tags/MSI)
+*   [MSRP](https://www.techpowerup.com/news-tags/MSRP)
+*   [Newegg](https://www.techpowerup.com/news-tags/Newegg)
+*   [NVIDIA](https://www.techpowerup.com/news-tags/NVIDIA)
+*   [PC](https://www.techpowerup.com/news-tags/PC)
+*   [premium](https://www.techpowerup.com/news-tags/premium)
+*   [RTX](https://www.techpowerup.com/news-tags/RTX)
+*   [RTX 5070](https://www.techpowerup.com/news-tags/RTX%205070)
+*   [RTX 5070 Ti](https://www.techpowerup.com/news-tags/RTX%205070%20Ti)
+
+*   Feb 25th 2025[NVIDIA GeForce RTX 50 Cards Spotted with Missing ROPs, NVIDIA Confirms the Issue, Multiple Vendors Affected](https://www.techpowerup.com/332884/nvidia-geforce-rtx-50-cards-spotted-with-missing-rops-nvidia-confirms-the-issue-multiple-vendors-affected) (519)
+*   Dec 25th 2024[NVIDIA GeForce RTX 5070 and RTX 5070 Ti Final Specifications Seemingly Confirmed](https://www.techpowerup.com/330206/nvidia-geforce-rtx-5070-and-rtx-5070-ti-final-specifications-seemingly-confirmed) (153)
+*   Sep 10th 2025[NVIDIA GeForce RTX 50-Series SUPER GPUs Could Arrive at CES 2026](https://www.techpowerup.com/340852/nvidia-geforce-rtx-50-series-super-gpus-could-arrive-at-ces-2026) (69)
+*   Sep 18th 2025[NVIDIA Buys $5B Worth of Intel, RTX iGPUs Coming to x86, Shares up 25%](https://www.techpowerup.com/341127/nvidia-buys-usd-5b-worth-of-intel-rtx-igpus-coming-to-x86-shares-up-25) (256)
+*   Jan 30th 2025[AMD Radeon 9070 XT Rumored to Outpace RTX 5070 Ti by Almost 15%](https://www.techpowerup.com/331832/amd-radeon-9070-xt-rumored-to-outpace-rtx-5070-ti-by-almost-15) (305)
+*   Jan 12th 2025[AMD Radeon RX 9070 XT Tested in Cyberpunk 2077 and Black Myth: Wukong](https://www.techpowerup.com/331015/amd-radeon-rx-9070-xt-tested-in-cyberpunk-2077-and-black-myth-wukong) (177)
+*   Jan 24th 2025[New Leak Reveals NVIDIA RTX 5080 Is Slower Than RTX 4090](https://www.techpowerup.com/331599/new-leak-reveals-nvidia-rtx-5080-is-slower-than-rtx-4090) (260)
+*   Sep 3rd 2025[NVIDIA Discrete GPU Market Share Dominance Expands to 94%, Notes Report](https://www.techpowerup.com/340614/nvidia-discrete-gpu-market-share-dominance-expands-to-94-notes-report) (237)
+*   Sep 29th 2025[March-April Release of NVIDIA GeForce RTX 50-series SUPER Lineup, Possible CES Reveal](https://www.techpowerup.com/341450/march-april-release-of-nvidia-geforce-rtx-50-series-super-lineup-possible-ces-reveal) (73)
+*   Sep 8th 2025[AMD Claims Arm ISA Doesn't Offer Efficiency Advantage Over x86](https://www.techpowerup.com/340779/amd-claims-arm-isa-doesnt-offer-efficiency-advantage-over-x86) (94)
+
+[Add your own comment](https://www.techpowerup.com/forums/threads/342857/reply)
+**15 Comments**on [NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time](https://www.techpowerup.com/forums/threads/342857/)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+[#1](https://www.techpowerup.com/forums/posts/5619602)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+These small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save. Asus Prime may be bare minimum if using custom fan curve.
+
+![Image 12](https://www.techpowerup.com/forums/attachments/421714)
+
+ Posted on Nov 12th 2025, 10:49[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619602)[#2](https://www.techpowerup.com/forums/posts/5619613)[cinemaware](https://www.techpowerup.com/forums/members/cinemaware.248274/)
+
+> KritThese small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save.
+> 
+> ![Image 13](https://www.techpowerup.com/forums/attachments/421714)
+
+That's 5 or less degrees difference between most of the other cards. Totally worth saving money imo. 
+
+ I have the PNY one, which is pretty budget. It seldom goes over 75C, and is pretty quiet. I definitely rather have the extra $$$ than run a few degrees cooler, which doesn't make any difference.
+
+ Posted on Nov 12th 2025, 11:02[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619613)[#3](https://www.techpowerup.com/forums/posts/5619615)[Hecate91](https://www.techpowerup.com/forums/members/hecate91.225470/)
+
+> KritThese small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save. Asus Prime may be bare minimum if using custom fan curve.
+> 
+> ![Image 14](https://www.techpowerup.com/forums/attachments/421714)
+
+Not worth saving with how much louder the ventus cooler is.
+
+ Posted on Nov 12th 2025, 11:05[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619615)[#4](https://www.techpowerup.com/forums/posts/5619618)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> cinemawareThat's 5 or less degrees difference between most of the other cards. Totally worth saving money imo.
+
+Look at rpm and dba are you sure about that ? There are only two ways quiet card but terrible temps or loud card but decent temps.
+
+ I had Gainward RTX 5070 Ti and i sold it because it was too loud even at low rpms (quality was poor).
+
+ Posted on Nov 12th 2025, 11:06[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619618)[#5](https://www.techpowerup.com/forums/posts/5619627)[cinemaware](https://www.techpowerup.com/forums/members/cinemaware.248274/)
+
+> KritLook at rpm and dba are you sure about that ? There are only two ways quiet card but terrible temps or loud card but decent temps.
+> 
+> 
+> 
+> I had Gainward RTX 5070 Ti and i sold it because it was too loud even at low rpms (quality was poor).
+
+I can't speak for this Ventus, but three of my last Nvidia cards were the basic models (2x Gigabyte and now the PNY) and they were all very quiet plus I never had to worry about any temps. I don't know, is 10db really that big a difference in real life? 
+
+ Of course how "quiet" a card is subjective, but compared to the cheap 9070XT I had this year they are mouse vs aircraft type scenarios. Overall, I never really heard them, in my daytime operations and some evening - time gaming. At least not on the level which would be intrusive and be audible over my speakers and game sounds (I don't even do headphones anymore).
+
+ Also, it’s a TPU recommended card so there's that.
+
+ Posted on Nov 12th 2025, 11:15[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619627)[#6](https://www.techpowerup.com/forums/posts/5619634)[Raptor_i](https://www.techpowerup.com/forums/members/raptor_i.50662/)
+
+> KritThese small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save. Asus Prime may be bare minimum if using custom fan curve.
+> 
+> ![Image 15](https://www.techpowerup.com/forums/attachments/421714)
+
+Msi have the formula for quiet and cool coolers yet they put the worst in Ventus, I can't imagine it's because of the cost it's just so their other cards will look good.
+
+ Posted on Nov 12th 2025, 11:21[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619634)[#7](https://www.techpowerup.com/forums/posts/5619640)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> cinemawareOf course how "quiet" a card is subjective, but compared to the cheap 9070XT I had this year they are mouse vs aircraft type scenarios.
+
+The difference is that AMD are offering very good cooling for cheap but nvidia does not. Look at Sapphire Pulse or XFX Swift it costs the same as Reaper, Gigabyte Gaming OC or Steel Legend (but different tier of cooling/noise dba)
+
+ Posted on Nov 12th 2025, 11:28[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619640)[#8](https://www.techpowerup.com/forums/posts/5619642)[Sol_Badguy](https://www.techpowerup.com/forums/members/sol_badguy.247374/)
+
+Some time ago I've commented about MSI's MSRP models (second half of that post):
+
+ [EMBED content="post-5497677"]https://www.techpowerup.com/forums/threads/asus-geforce-rtx-5080-tuf-oc.333022/page-2#post-5497677[/EMBED]
+
+ There is too much segmentation going on, way too many models, the proper approach would've been making a decent cooler for the 5080 and then using it on the 5070 Ti as well.
+> cinemawareI don't know, is 10db really that big a difference in real life?
+
+40 vs 30 dBA is a big deal.
+
+ 70 vs 65°C is not a big deal.
+
+[www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html](https://www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html)
+
+ ^Noise normalized.
+
+ Temps are fine in absolute terms for the Ventus, but relative to Galax which is also MSRP they're disappointing.
+
+ Posted on Nov 12th 2025, 11:29[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619642)[#9](https://www.techpowerup.com/forums/posts/5619643)[razaron](https://www.techpowerup.com/forums/members/razaron.52448/)
+
+> cinemawareI don't know, is 10db really that big a difference in real life?
+
+Every 10db is roughly double the IRL perceived loudness.
+
+ Posted on Nov 12th 2025, 11:30[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619643)[#10](https://www.techpowerup.com/forums/posts/5619650)[Sol_Badguy](https://www.techpowerup.com/forums/members/sol_badguy.247374/)
+
+> KritThe difference is that AMD are offering very good cooling for cheap but nvidia does not. Look at Sapphire Pulse or XFX Swift it costs the same as Reaper, Gigabyte Gaming OC or Steel Legend (but different tier of cooling/noise dba)
+
+RDNA4 cards are very impressive:
+
+[www.techpowerup.com/review/asus-radeon-rx-9070-xt-tuf-oc/40.html](https://www.techpowerup.com/review/asus-radeon-rx-9070-xt-tuf-oc/40.html)
+
+[www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html](https://www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html)
+
+ ^Samsung memory would bring those VRAM temps down.
+
+ Not only the impressive core temp but the cards are usually lighter and less bulky than 5070 Ti ones.
+
+ Even though, on paper, Navi 48 should be worse than GB203 when it comes to power density:
+
+[www.techpowerup.com/gpu-specs/radeon-rx-9070-xt.c4229](https://www.techpowerup.com/gpu-specs/radeon-rx-9070-xt.c4229)
+
+[www.techpowerup.com/gpu-specs/geforce-rtx-5070-ti.c4243](https://www.techpowerup.com/gpu-specs/geforce-rtx-5070-ti.c4243)
+
+ 9070 XT - 304 W TDP with 357 mm2 GPU die -> 0.85 W/mm2
+
+ 5070 Ti - 300 W TDP with 378 mm2 GPU die -> 0.79 W/ mm2
+
+ Posted on Nov 12th 2025, 11:48[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619650)[#11](https://www.techpowerup.com/forums/posts/5619677)[cinemaware](https://www.techpowerup.com/forums/members/cinemaware.248274/)
+
+> KritThe difference is that AMD are offering very good cooling for cheap but nvidia does not. Look at Sapphire Pulse or XFX Swift it costs the same as Reaper, Gigabyte Gaming OC or Steel Legend (but different tier of cooling/noise dba)
+
+I had Gigabyte Gaming OC cards. They are cheap (relatively speaking). The cooling is excellent. The PNY I have now is also a basic model, not the one that was linked to.
+
+ The AMD card I had was beyond terrible. 
+
+ These are real life use case, not reviews. Disregarding the AMD angle, from my experience, spending a lot of money on higher end Nvidia cards is a waste. Maybe there are some outliers, perhaps Ventus is one, but then you should return it and get a Gigabyte or PNY.
+
+ That is all :)
+
+ Posted on Nov 12th 2025, 12:22[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619677)[#12](https://www.techpowerup.com/forums/posts/5619733)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> cinemawareThese are real life use case, not reviews. Disregarding the AMD angle, from my experience, spending a lot of money on higher end Nvidia cards is a waste. Maybe there are some outliers, perhaps Ventus is one, but then you should return it and get a Gigabyte or PNY.
+
+If you look at HW unboxed video where he tests all or 16 RX 9070 XT models it shows that Gaming OC is the worst model from them all. You where very unlucky when bought your choice.
+
+![Image 16](https://www.techpowerup.com/forums/attachments/421738)
+
+ Posted on Nov 12th 2025, 13:12[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619733)[#13](https://www.techpowerup.com/forums/posts/5619743)[Artcurio](https://www.techpowerup.com/forums/members/artcurio.254480/)
+
+> cinemawareI don't know, is 10db really that big a difference in real life?
+
+> razaronEvery 10db is roughly double the IRL perceived loudness.
+
+Yep, this.
+
+ 10dB sounds twice as loud.
+> KritIf you look at HW unboxed video where he tests all or 16 RX 9070 XT models it shows that Gaming OC is the worst model from them all. You where very unlucky when bought your choice.
+> 
+> ![Image 17](https://www.techpowerup.com/forums/attachments/421738)
+
+:confused: 
+
+ There isnt a Gaming OC on that chart from any mfr ... ?
+
+ Posted on Nov 12th 2025, 13:19[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619743)[#14](https://www.techpowerup.com/forums/posts/5619752)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> ArtcurioThere isnt a Gaming OC on that chart from any mfr ... ?
+
+Gigabyte Gaming OC that's very old name since RX 5700 XT....
+
+ Posted on Nov 12th 2025, 13:23[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619752)[#15](https://www.techpowerup.com/forums/posts/5619814)[Artcurio](https://www.techpowerup.com/forums/members/artcurio.254480/)
+
+> KritGigabyte Gaming OC that's very old name since RX 5700 XT....
+
+Ok thanx.
+
+ Its not the worst model card on the chart though, its the 2nd highest clocked by quite a margin.
+
+ At 2720MHz its over 5% faster (clock speed) than 2570MHz cards.
+
+ And is nearly 10% faster than the slowest 2480MHz card.
+
+ If it were put to the same speed as most other cards, temps would look much better. Plus the option for a decent overclock without needing to tune it.
+
+ Were it too noisy, that would matter, but those are temps normalised at 40dB :)
+
+ Posted on Nov 12th 2025, 14:30[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619814)[Add your own comment](https://www.techpowerup.com/forums/threads/342857/reply)
+
+Nov 15th, 2025 07:28 CST[change timezone](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time#)
+
+[Sign in](https://www.techpowerup.com/forums/login) / [Register](https://www.techpowerup.com/forums/register)
+
+Latest GPU Drivers
+==================
+
+*   [NVIDIA GeForce 581.80 WHQL](https://www.techpowerup.com/download/nvidia-geforce-graphics-drivers/)
+*   [AMD Radeon 25.11.1 WHQL](https://www.techpowerup.com/download/amd-radeon-graphics-drivers/)
+*   [Intel Arc & iGPU 101.8250 Beta](https://www.techpowerup.com/download/intel-integrated-graphics-drivers/)
+
+[![Image 18](https://www.techpowerup.com/reviyuu/b784/_de98d1b5.png)](https://www.techpowerup.com/reviyuu/b784/3048er/images/gmchjhj.png)
+
+New Forum Posts
+===============
+
+*   07:27 by unwind-protect [Help with parts list for building a local backup server / NAS (for music projects)?](https://www.techpowerup.com/forums/threads/help-with-parts-list-for-building-a-local-backup-server-nas-for-music-projects.340400/unread) (27) 
+*   07:20 by Ruru [Post your cooling.](https://www.techpowerup.com/forums/threads/post-your-cooling.322662/unread) (365) 
+*   07:20 by Krit [RX 9000 series GPU Owners Club](https://www.techpowerup.com/forums/threads/rx-9000-series-gpu-owners-club.333786/unread) (1554) 
+*   07:17 by Dr. Dro [question on asrock x58 extreme 3 and hwinfo64](https://www.techpowerup.com/forums/threads/question-on-asrock-x58-extreme-3-and-hwinfo64.342936/unread) (4) 
+*   07:09 by TechBuyingHavoc [Battlefield 6](https://www.techpowerup.com/forums/threads/battlefield-6.339603/unread) (634) 
+*   06:35 by AusWolf [Real difference between 9070 xt and 5080?](https://www.techpowerup.com/forums/threads/real-difference-between-9070-xt-and-5080.342869/unread) (88) 
+*   06:23 by DaemonForce [1/4 pcie card in regular slot](https://www.techpowerup.com/forums/threads/1-4-pcie-card-in-regular-slot.342931/unread) (4) 
+*   05:50 by ARF [What phone you use as your daily driver? And, a discussion of them.](https://www.techpowerup.com/forums/threads/what-phone-you-use-as-your-daily-driver-and-a-discussion-of-them.287275/unread) (1930) 
+*   05:32 by Logic [Would you consider moving away from Windows?](https://www.techpowerup.com/forums/threads/would-you-consider-moving-away-from-windows.342088/unread) (163) 
+*   05:25 by CiTay [Samsung 870 EVO - Beware, certain batches prone to failure!](https://www.techpowerup.com/forums/threads/samsung-870-evo-beware-certain-batches-prone-to-failure.291504/unread) (1332) 
+
+[![Image 19](https://www.techpowerup.com/reviyuu/b784/_33ec76ce.png)](https://www.techpowerup.com/reviyuu/b784/3351er/images/gmchjhj.png)
+
+Popular Reviews
+===============
+
+*   Nov 13th, 2025[Corsair Air 5400 RS-R ARGB Review](https://www.techpowerup.com/review/corsair-air-5400-rs-r-argb/)
+*   Nov 14th, 2025[ASUS ROG Xbox Ally X Review](https://www.techpowerup.com/review/asus-rog-xbox-ally-x/)
+*   Nov 12th, 2025[Samsung ViewFinity S9 Review - A Different Take on the Apple Studio Display](https://www.techpowerup.com/review/samsung-viewfinity-s9/)
+*   Feb 27th, 2023[AMD Ryzen 9 7950X3D Review - Best of Both Worlds](https://www.techpowerup.com/review/amd-ryzen-9-7950x3d/)
+*   Nov 13th, 2025[ASRock X870 Live Mixer Wi-Fi Review](https://www.techpowerup.com/review/asrock-x870-live-mixer-wi-fi/)
+*   Nov 11th, 2025[Upcoming Hardware Launches 2025 (Updated Nov 2025)](https://www.techpowerup.com/review/future-hardware-releases/)
+*   Nov 10th, 2025[Gigabyte X870E Aorus Pro X3D Ice Review](https://www.techpowerup.com/review/gigabyte-x870e-aorus-pro-x3d-ice/)
+*   Aug 10th, 2024[We found the Missing Performance: Zen 5 Tested with SMT Disabled](https://www.techpowerup.com/review/amd-ryzen-9-9700x-performance-smt-disabled/)
+*   Nov 11th, 2025[HAVN BF 360 Flow Review](https://www.techpowerup.com/review/havn-bf-360-flow/)
+*   Nov 6th, 2024[AMD Ryzen 7 9800X3D Review - The Best Gaming Processor](https://www.techpowerup.com/review/amd-ryzen-7-9800x3d/)
+
+TPU on YouTube
+==============
+
+[](https://www.youtube.com/watch?v=zLXf2VGis3U)
+Controversial News Posts
+========================
+
+*   [No More Game Optimizations for AMD Radeon RX 6000 and RX 5000, Still Part of Main Driver Branch](https://www.techpowerup.com/342449/no-more-game-optimizations-for-amd-radeon-rx-6000-and-rx-5000-still-part-of-main-driver-branch) (250) 
+*   [Valve Announces Steam Machine, Steam Frame, and Steam Controller](https://www.techpowerup.com/342866/valve-announces-steam-machine-steam-frame-and-steam-controller) (160) 
+*   [Windows 11 25H2 October Update Bug Renders Recovery Environment Unusable](https://www.techpowerup.com/342032/windows-11-25h2-october-update-bug-renders-recovery-environment-unusable) (160) 
+*   [AMD Clarifies "Maintenance Mode" for Radeon RX 5000/6000 Series, First-Day Game Support Remains](https://www.techpowerup.com/342481/amd-clarifies-maintenance-mode-for-radeon-rx-5000-6000-series-first-day-game-support-remains) (160) 
+*   [12V-2×6 Power Connector Burns on Sapphire Radeon RX 9070 XT GPU](https://www.techpowerup.com/342541/12v-2x6-power-connector-burns-on-sapphire-radeon-rx-9070-xt-gpu) (108) 
+*   [Microsoft Breaks Localhost with Windows 11 October Update, Users Forced to Revert](https://www.techpowerup.com/341976/microsoft-breaks-localhost-with-windows-11-october-update-users-forced-to-revert) (105) 
+*   [AMD Could Launch 16-Core Ryzen 9 9950X3D2 CPU with 192 MB L3 Cache and 200 W TDP](https://www.techpowerup.com/342095/amd-could-launch-16-core-ryzen-9-9950x3d2-cpu-with-192-mb-l3-cache-and-200-w-tdp) (91) 
+*   [Creative Technology Launches Kickstarter Campaign for Sound Blaster Re:Imagine](https://www.techpowerup.com/342347/creative-technology-launches-kickstarter-campaign-for-sound-blaster-re-imagine) (88) 
+
+ Copyright © 2004-2025 www.techpowerup.com.
+
+ All rights reserved.
+
+ All trademarks used are properties of their respective owners.
+
+======================================================================
+System Prompt:
+You are a creative social media content strategist specializing in viral video content. You understand platform algorithms, trends, and what makes content engaging.
+
+======================================================================
+User Prompt:
+Generate 1 creative video ideas for Tiktok.
+
+TOPIC: nvidia new gpu
+
+PLATFORM SPECIFICATIONS:
+- Duration: 15-60 seconds
+- Best practices: Start with a strong hook, use trending sounds, add text overlays, keep it fast-paced
+
+TARGET AUDIENCE: General audience interested in the topic
+
+TONE: engaging and authentic
+
+ADDITIONAL CONTEXT:
+Each video should be designed for exactly 30 seconds duration. Provide 5-10 key points per idea, each being a full sentence of 10-15 words. Hooks must be extremely catchy, curiosity-driven, and under 12 words.
+
+Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:
+
+1. Web Review, Week 2025-46 — Ipsquad.net
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+2. China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall — Digitimes
+   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…
+   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html
+
+3. NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time — Techpowerup.com
+   Summary: GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have finally dip below their MSRPs, it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Neweg…
+   URL: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time
+   FULL ARTICLE:
+Title: NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time
+
+URL Source: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time
+
+Markdown Content:
+NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time | TechPowerUp
+
+===============
+
+![Image 4](https://www.techpowerup.com/reviyuu/b784/_f95d1845.png)
+
+[](https://www.techpowerup.com/reviyuu/b784/3516er/images/gmchjhj.png)
+
+[](https://www.techpowerup.com/reviyuu/b784/3516er/images/gmchjhj.png)
+
+[](https://www.techpowerup.com/ "TechPowerUp")
+
+[![Image 5](https://www.techpowerup.com/reviyuu/b784/_36377b44.png)](https://www.techpowerup.com/reviyuu/b784/3094er/images/gmchjhj.png)
+
+- [x] - [x] 
+*   [Home](https://www.techpowerup.com/)
+*   [Reviews](https://www.techpowerup.com/review/)
+*   [Forums](https://www.techpowerup.com/forums/)
+*   [Downloads](https://www.techpowerup.com/download/)
+*   [Case Mod Gallery](https://www.techpowerup.com/gallery/)
+*   Databases - [x] 
+    *   Databases… Back 
+    *   [VGA Bios Collection](https://www.techpowerup.com/vgabios/)
+    *   [GPU Database](https://www.techpowerup.com/gpu-specs/)
+    *   [CPU Database](https://www.techpowerup.com/cpu-specs/)
+    *   [SSD Database](https://www.techpowerup.com/ssd-specs/)
+    *   [Review Database](https://www.techpowerup.com/reviewdb/)
+    *   [Upcoming Hardware](https://www.techpowerup.com/review/future-hardware-releases/)
+
+*   Our Software - [x] 
+    *   Our Software… Back 
+    *   [GPU-Z](https://www.techpowerup.com/gpuz/)
+    *   [RealTemp](https://www.techpowerup.com/realtemp/)
+    *   [NVCleanstall](https://www.techpowerup.com/nvcleanstall/)
+    *   [TPUCapture](https://www.techpowerup.com/tpucapture/)
+    *   [MemTest64](https://www.techpowerup.com/memtest64/)
+
+*   More - [x] 
+    *   More… Back 
+    *   [Articles](https://www.techpowerup.com/articles/)
+    *   [Old Stuff](https://www.techpowerup.com/oldstuff/)
+    *   [Computer Trivia](https://www.techpowerup.com/trivia/)
+    *   [TPU Live](https://www.techpowerup.com/live/)
+    *   [RAM Latency Calculator](https://www.techpowerup.com/dram-latency/)
+
+*   [Contact Us](https://www.techpowerup.com/contact/)
+*   [](https://www.facebook.com/TechPowerUp "Facebook")[](https://x.com/TechPowerUp "X")[](https://bsky.app/profile/techpowerup.com "Bluesky")[](https://www.patreon.com/TechPowerUp "Patreon")[](https://www.youtube.com/c/TechPowerUp "YouTube")[](https://www.techpowerup.com/rss/ "RSS")
+
+Nov 15th, 2025 07:28 CST[change timezone](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time#)
+
+[Sign in](https://www.techpowerup.com/forums/login) / [Register](https://www.techpowerup.com/forums/register)
+
+Latest GPU Drivers
+==================
+
+*   [NVIDIA GeForce 581.80 WHQL](https://www.techpowerup.com/download/nvidia-geforce-graphics-drivers/)
+*   [AMD Radeon 25.11.1 WHQL](https://www.techpowerup.com/download/amd-radeon-graphics-drivers/)
+*   [Intel Arc & iGPU 101.8250 Beta](https://www.techpowerup.com/download/intel-integrated-graphics-drivers/)
+
+[![Image 6](https://www.techpowerup.com/reviyuu/b784/_de98d1b5.png)](https://www.techpowerup.com/reviyuu/b784/3048er/images/gmchjhj.png)
+
+New Forum Posts
+===============
+
+*   07:27 by unwind-protect [Help with parts list for building a local backup server / NAS (for music projects)?](https://www.techpowerup.com/forums/threads/help-with-parts-list-for-building-a-local-backup-server-nas-for-music-projects.340400/unread) (27) 
+*   07:20 by Ruru [Post your cooling.](https://www.techpowerup.com/forums/threads/post-your-cooling.322662/unread) (365) 
+*   07:20 by Krit [RX 9000 series GPU Owners Club](https://www.techpowerup.com/forums/threads/rx-9000-series-gpu-owners-club.333786/unread) (1554) 
+*   07:17 by Dr. Dro [question on asrock x58 extreme 3 and hwinfo64](https://www.techpowerup.com/forums/threads/question-on-asrock-x58-extreme-3-and-hwinfo64.342936/unread) (4) 
+*   07:09 by TechBuyingHavoc [Battlefield 6](https://www.techpowerup.com/forums/threads/battlefield-6.339603/unread) (634) 
+*   06:35 by AusWolf [Real difference between 9070 xt and 5080?](https://www.techpowerup.com/forums/threads/real-difference-between-9070-xt-and-5080.342869/unread) (88) 
+*   06:23 by DaemonForce [1/4 pcie card in regular slot](https://www.techpowerup.com/forums/threads/1-4-pcie-card-in-regular-slot.342931/unread) (4) 
+*   05:50 by ARF [What phone you use as your daily driver? And, a discussion of them.](https://www.techpowerup.com/forums/threads/what-phone-you-use-as-your-daily-driver-and-a-discussion-of-them.287275/unread) (1930) 
+*   05:32 by Logic [Would you consider moving away from Windows?](https://www.techpowerup.com/forums/threads/would-you-consider-moving-away-from-windows.342088/unread) (163) 
+*   05:25 by CiTay [Samsung 870 EVO - Beware, certain batches prone to failure!](https://www.techpowerup.com/forums/threads/samsung-870-evo-beware-certain-batches-prone-to-failure.291504/unread) (1332) 
+
+[![Image 7](https://www.techpowerup.com/reviyuu/b784/_33ec76ce.png)](https://www.techpowerup.com/reviyuu/b784/3351er/images/gmchjhj.png)
+
+Popular Reviews
+===============
+
+*   Nov 13th, 2025[Corsair Air 5400 RS-R ARGB Review](https://www.techpowerup.com/review/corsair-air-5400-rs-r-argb/)
+*   Nov 14th, 2025[ASUS ROG Xbox Ally X Review](https://www.techpowerup.com/review/asus-rog-xbox-ally-x/)
+*   Nov 12th, 2025[Samsung ViewFinity S9 Review - A Different Take on the Apple Studio Display](https://www.techpowerup.com/review/samsung-viewfinity-s9/)
+*   Feb 27th, 2023[AMD Ryzen 9 7950X3D Review - Best of Both Worlds](https://www.techpowerup.com/review/amd-ryzen-9-7950x3d/)
+*   Nov 13th, 2025[ASRock X870 Live Mixer Wi-Fi Review](https://www.techpowerup.com/review/asrock-x870-live-mixer-wi-fi/)
+*   Nov 11th, 2025[Upcoming Hardware Launches 2025 (Updated Nov 2025)](https://www.techpowerup.com/review/future-hardware-releases/)
+*   Nov 10th, 2025[Gigabyte X870E Aorus Pro X3D Ice Review](https://www.techpowerup.com/review/gigabyte-x870e-aorus-pro-x3d-ice/)
+*   Aug 10th, 2024[We found the Missing Performance: Zen 5 Tested with SMT Disabled](https://www.techpowerup.com/review/amd-ryzen-9-9700x-performance-smt-disabled/)
+*   Nov 11th, 2025[HAVN BF 360 Flow Review](https://www.techpowerup.com/review/havn-bf-360-flow/)
+*   Nov 6th, 2024[AMD Ryzen 7 9800X3D Review - The Best Gaming Processor](https://www.techpowerup.com/review/amd-ryzen-7-9800x3d/)
+
+TPU on YouTube
+==============
+
+[](https://www.youtube.com/watch?v=zLXf2VGis3U)
+Controversial News Posts
+========================
+
+*   [No More Game Optimizations for AMD Radeon RX 6000 and RX 5000, Still Part of Main Driver Branch](https://www.techpowerup.com/342449/no-more-game-optimizations-for-amd-radeon-rx-6000-and-rx-5000-still-part-of-main-driver-branch) (250) 
+*   [Valve Announces Steam Machine, Steam Frame, and Steam Controller](https://www.techpowerup.com/342866/valve-announces-steam-machine-steam-frame-and-steam-controller) (160) 
+*   [Windows 11 25H2 October Update Bug Renders Recovery Environment Unusable](https://www.techpowerup.com/342032/windows-11-25h2-october-update-bug-renders-recovery-environment-unusable) (160) 
+*   [AMD Clarifies "Maintenance Mode" for Radeon RX 5000/6000 Series, First-Day Game Support Remains](https://www.techpowerup.com/342481/amd-clarifies-maintenance-mode-for-radeon-rx-5000-6000-series-first-day-game-support-remains) (160) 
+*   [12V-2×6 Power Connector Burns on Sapphire Radeon RX 9070 XT GPU](https://www.techpowerup.com/342541/12v-2x6-power-connector-burns-on-sapphire-radeon-rx-9070-xt-gpu) (108) 
+*   [Microsoft Breaks Localhost with Windows 11 October Update, Users Forced to Revert](https://www.techpowerup.com/341976/microsoft-breaks-localhost-with-windows-11-october-update-users-forced-to-revert) (105) 
+*   [AMD Could Launch 16-Core Ryzen 9 9950X3D2 CPU with 192 MB L3 Cache and 200 W TDP](https://www.techpowerup.com/342095/amd-could-launch-16-core-ryzen-9-9950x3d2-cpu-with-192-mb-l3-cache-and-200-w-tdp) (91) 
+*   [Creative Technology Launches Kickstarter Campaign for Sound Blaster Re:Imagine](https://www.techpowerup.com/342347/creative-technology-launches-kickstarter-campaign-for-sound-blaster-re-imagine) (88) 
+
+Wednesday, November 12th 2025
+
+![Image 8: NVIDIA](https://tpucdn.com/images/news/nvidia-v1762951592.png)
+[NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time)
+=================================================================================================================================================================
+
+ by [AleksandarK](https://www.techpowerup.com/forums/members/187454/) Wednesday, 10:30 [Discuss (15 Comments)](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time#comments)
+
+GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have [finally dip below their MSRPs](https://www.techpowerup.com/342533/amd-radeon-rx-9070-and-rx-9070-xt-finally-reach-msrp), it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Newegg applied a rebate that brought widely available listings to $729.99, under the $749 MSRP tied to this "Blackwell" SKU. The new pricing may not instantly alter the narrative around the 5070 Ti, but rather give this GPU some price breathing room for card that carried persistent price premiums, turning some buyers away.
+
+ The SKU in question is MSI Ventus 3X OC BLACK edition, which apparently has not been listed on MSI's official site, meaning that retailers are now the exclusive place to get this GPU. We had a pleasure of reviewing the non-BLACK [MSI RTX 5070 Ti Ventus 3X OC GPU](https://www.techpowerup.com/review/msi-geforce-rtx-5070-ti-ventus-3x/), which stood out as a sensible and well-rounded offering. Its factory overclock, strong headroom for further tuning and efficient gaming power draw make it especially attractive to 1440p high refresh gamers, compact-system builders and overclocking enthusiasts. Taking performance, features and price into account we awarded the Ventus 3X OC a "Recommended" badge. It is a very good value for its audience, but it missed our Editor's Choice due to the thermal and noise trade-offs. However, at the time the actual retail price was a bit higher than MSRP at launch. Now, PC builders can get this GPU at prices below MSRP from the [Newegg listing here](https://www.newegg.com/msi-rtx-5070-ti-16g-ventus-3x-oc-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/N82E16814137993).
+
+[![Image 9](https://tpucdn.com/img/wbyG9RvRzZcxC1pS_thm.jpg)](https://www.techpowerup.com/img/wbyG9RvRzZcxC1pS.jpg)[![Image 10](https://tpucdn.com/img/CVIVYOiW7auTmjik_thm.jpg)](https://www.techpowerup.com/img/CVIVYOiW7auTmjik.jpg)[![Image 11](https://tpucdn.com/img/GVqjBMo3JUolHJ9t_thm.jpg)](https://www.techpowerup.com/img/GVqjBMo3JUolHJ9t.jpg)
+
+ Source: [via VideoCardz](https://videocardz.com/newz/msi-rtx-5070-ti-falls-to-730-at-newegg-now-below-nvidia-msrp)
+
+[](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time "Share on Facebook")
+
+[](https://x.com/intent/post?text=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time%20http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time%20via%20%40TechPowerUp "Share on X")
+
+[](https://www.reddit.com/submit?url=http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time&title=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time "Share on Reddit")
+
+[](mailto:?subject=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time&body=http%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time%0D%0A%0D%0AGPU%20prices%20are%20finally%20coming%20down.%20After%20we%20saw%20AMD%26%23039%3Bs%20Radeon%20RX%209070%20and%20Radeon%20RX%209070%20XT%20graphics%20cards%20have%20finally%20dip%20below%20their%20MSRPs%2C%20it%20seems%20that%20NVIDIA%20cards%20are%20now%20in%20order.%20NVIDIA%20GeForce%20RTX%205070%20Ti%20slipped%20below%20its%20MSRP%20this%20week%20after%20Newegg%20applied%20a%20rebate%20that%20brought%20widely... "Share via E-Mail")
+
+[](whatsapp://send?text=NVIDIA%20GeForce%20RTX%205070%20Ti%20Dips%20Below%20MSRP%20for%20the%20First%20Time%0D%0A%0D%0Ahttp%3A%2F%2Fwww.techpowerup.com%2F342857%2Fnvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time%0D%0A%0D%0AGPU%20prices%20are%20finally%20coming%20down.%20After%20we%20saw%20AMD%26%23039%3Bs%20Radeon%20RX%209070%20and%20Radeon%20RX%209070%20XT%20graphics%20cards%20have%20finally%20dip%20below%20their%20MSRPs%2C%20it%20seems%20that%20NVIDIA%20cards%20are%20now%20in%20order.%20NVIDIA%20GeForce%20RTX%205070%20Ti%20slipped%20below%20its%20MSRP%20this%20week%20after%20Newegg%20applied%20a%20rebate%20that%20brought%20widely... "Share via WhatsApp")
+
+### Related News
+
+*   Tags:
+*   [Blackwell](https://www.techpowerup.com/news-tags/Blackwell)
+*   [GeForce](https://www.techpowerup.com/news-tags/GeForce)
+*   [GPU](https://www.techpowerup.com/news-tags/GPU)
+*   [MSI](https://www.techpowerup.com/news-tags/MSI)
+*   [MSRP](https://www.techpowerup.com/news-tags/MSRP)
+*   [Newegg](https://www.techpowerup.com/news-tags/Newegg)
+*   [NVIDIA](https://www.techpowerup.com/news-tags/NVIDIA)
+*   [PC](https://www.techpowerup.com/news-tags/PC)
+*   [premium](https://www.techpowerup.com/news-tags/premium)
+*   [RTX](https://www.techpowerup.com/news-tags/RTX)
+*   [RTX 5070](https://www.techpowerup.com/news-tags/RTX%205070)
+*   [RTX 5070 Ti](https://www.techpowerup.com/news-tags/RTX%205070%20Ti)
+
+*   Feb 25th 2025[NVIDIA GeForce RTX 50 Cards Spotted with Missing ROPs, NVIDIA Confirms the Issue, Multiple Vendors Affected](https://www.techpowerup.com/332884/nvidia-geforce-rtx-50-cards-spotted-with-missing-rops-nvidia-confirms-the-issue-multiple-vendors-affected) (519)
+*   Dec 25th 2024[NVIDIA GeForce RTX 5070 and RTX 5070 Ti Final Specifications Seemingly Confirmed](https://www.techpowerup.com/330206/nvidia-geforce-rtx-5070-and-rtx-5070-ti-final-specifications-seemingly-confirmed) (153)
+*   Sep 10th 2025[NVIDIA GeForce RTX 50-Series SUPER GPUs Could Arrive at CES 2026](https://www.techpowerup.com/340852/nvidia-geforce-rtx-50-series-super-gpus-could-arrive-at-ces-2026) (69)
+*   Sep 18th 2025[NVIDIA Buys $5B Worth of Intel, RTX iGPUs Coming to x86, Shares up 25%](https://www.techpowerup.com/341127/nvidia-buys-usd-5b-worth-of-intel-rtx-igpus-coming-to-x86-shares-up-25) (256)
+*   Jan 30th 2025[AMD Radeon 9070 XT Rumored to Outpace RTX 5070 Ti by Almost 15%](https://www.techpowerup.com/331832/amd-radeon-9070-xt-rumored-to-outpace-rtx-5070-ti-by-almost-15) (305)
+*   Jan 12th 2025[AMD Radeon RX 9070 XT Tested in Cyberpunk 2077 and Black Myth: Wukong](https://www.techpowerup.com/331015/amd-radeon-rx-9070-xt-tested-in-cyberpunk-2077-and-black-myth-wukong) (177)
+*   Jan 24th 2025[New Leak Reveals NVIDIA RTX 5080 Is Slower Than RTX 4090](https://www.techpowerup.com/331599/new-leak-reveals-nvidia-rtx-5080-is-slower-than-rtx-4090) (260)
+*   Sep 3rd 2025[NVIDIA Discrete GPU Market Share Dominance Expands to 94%, Notes Report](https://www.techpowerup.com/340614/nvidia-discrete-gpu-market-share-dominance-expands-to-94-notes-report) (237)
+*   Sep 29th 2025[March-April Release of NVIDIA GeForce RTX 50-series SUPER Lineup, Possible CES Reveal](https://www.techpowerup.com/341450/march-april-release-of-nvidia-geforce-rtx-50-series-super-lineup-possible-ces-reveal) (73)
+*   Sep 8th 2025[AMD Claims Arm ISA Doesn't Offer Efficiency Advantage Over x86](https://www.techpowerup.com/340779/amd-claims-arm-isa-doesnt-offer-efficiency-advantage-over-x86) (94)
+
+[Add your own comment](https://www.techpowerup.com/forums/threads/342857/reply)
+**15 Comments**on [NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time](https://www.techpowerup.com/forums/threads/342857/)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+[#1](https://www.techpowerup.com/forums/posts/5619602)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+These small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save. Asus Prime may be bare minimum if using custom fan curve.
+
+![Image 12](https://www.techpowerup.com/forums/attachments/421714)
+
+ Posted on Nov 12th 2025, 10:49[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619602)[#2](https://www.techpowerup.com/forums/posts/5619613)[cinemaware](https://www.techpowerup.com/forums/members/cinemaware.248274/)
+
+> KritThese small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save.
+> 
+> ![Image 13](https://www.techpowerup.com/forums/attachments/421714)
+
+That's 5 or less degrees difference between most of the other cards. Totally worth saving money imo. 
+
+ I have the PNY one, which is pretty budget. It seldom goes over 75C, and is pretty quiet. I definitely rather have the extra $$$ than run a few degrees cooler, which doesn't make any difference.
+
+ Posted on Nov 12th 2025, 11:02[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619613)[#3](https://www.techpowerup.com/forums/posts/5619615)[Hecate91](https://www.techpowerup.com/forums/members/hecate91.225470/)
+
+> KritThese small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save. Asus Prime may be bare minimum if using custom fan curve.
+> 
+> ![Image 14](https://www.techpowerup.com/forums/attachments/421714)
+
+Not worth saving with how much louder the ventus cooler is.
+
+ Posted on Nov 12th 2025, 11:05[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619615)[#4](https://www.techpowerup.com/forums/posts/5619618)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> cinemawareThat's 5 or less degrees difference between most of the other cards. Totally worth saving money imo.
+
+Look at rpm and dba are you sure about that ? There are only two ways quiet card but terrible temps or loud card but decent temps.
+
+ I had Gainward RTX 5070 Ti and i sold it because it was too loud even at low rpms (quality was poor).
+
+ Posted on Nov 12th 2025, 11:06[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619618)[#5](https://www.techpowerup.com/forums/posts/5619627)[cinemaware](https://www.techpowerup.com/forums/members/cinemaware.248274/)
+
+> KritLook at rpm and dba are you sure about that ? There are only two ways quiet card but terrible temps or loud card but decent temps.
+> 
+> 
+> 
+> I had Gainward RTX 5070 Ti and i sold it because it was too loud even at low rpms (quality was poor).
+
+I can't speak for this Ventus, but three of my last Nvidia cards were the basic models (2x Gigabyte and now the PNY) and they were all very quiet plus I never had to worry about any temps. I don't know, is 10db really that big a difference in real life? 
+
+ Of course how "quiet" a card is subjective, but compared to the cheap 9070XT I had this year they are mouse vs aircraft type scenarios. Overall, I never really heard them, in my daytime operations and some evening - time gaming. At least not on the level which would be intrusive and be audible over my speakers and game sounds (I don't even do headphones anymore).
+
+ Also, it’s a TPU recommended card so there's that.
+
+ Posted on Nov 12th 2025, 11:15[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619627)[#6](https://www.techpowerup.com/forums/posts/5619634)[Raptor_i](https://www.techpowerup.com/forums/members/raptor_i.50662/)
+
+> KritThese small skinny cheap RTX 5070 Ti coolers are terrible in my opinion not worth to save. Asus Prime may be bare minimum if using custom fan curve.
+> 
+> ![Image 15](https://www.techpowerup.com/forums/attachments/421714)
+
+Msi have the formula for quiet and cool coolers yet they put the worst in Ventus, I can't imagine it's because of the cost it's just so their other cards will look good.
+
+ Posted on Nov 12th 2025, 11:21[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619634)[#7](https://www.techpowerup.com/forums/posts/5619640)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> cinemawareOf course how "quiet" a card is subjective, but compared to the cheap 9070XT I had this year they are mouse vs aircraft type scenarios.
+
+The difference is that AMD are offering very good cooling for cheap but nvidia does not. Look at Sapphire Pulse or XFX Swift it costs the same as Reaper, Gigabyte Gaming OC or Steel Legend (but different tier of cooling/noise dba)
+
+ Posted on Nov 12th 2025, 11:28[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619640)[#8](https://www.techpowerup.com/forums/posts/5619642)[Sol_Badguy](https://www.techpowerup.com/forums/members/sol_badguy.247374/)
+
+Some time ago I've commented about MSI's MSRP models (second half of that post):
+
+ [EMBED content="post-5497677"]https://www.techpowerup.com/forums/threads/asus-geforce-rtx-5080-tuf-oc.333022/page-2#post-5497677[/EMBED]
+
+ There is too much segmentation going on, way too many models, the proper approach would've been making a decent cooler for the 5080 and then using it on the 5070 Ti as well.
+> cinemawareI don't know, is 10db really that big a difference in real life?
+
+40 vs 30 dBA is a big deal.
+
+ 70 vs 65°C is not a big deal.
+
+[www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html](https://www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html)
+
+ ^Noise normalized.
+
+ Temps are fine in absolute terms for the Ventus, but relative to Galax which is also MSRP they're disappointing.
+
+ Posted on Nov 12th 2025, 11:29[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619642)[#9](https://www.techpowerup.com/forums/posts/5619643)[razaron](https://www.techpowerup.com/forums/members/razaron.52448/)
+
+> cinemawareI don't know, is 10db really that big a difference in real life?
+
+Every 10db is roughly double the IRL perceived loudness.
+
+ Posted on Nov 12th 2025, 11:30[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619643)[#10](https://www.techpowerup.com/forums/posts/5619650)[Sol_Badguy](https://www.techpowerup.com/forums/members/sol_badguy.247374/)
+
+> KritThe difference is that AMD are offering very good cooling for cheap but nvidia does not. Look at Sapphire Pulse or XFX Swift it costs the same as Reaper, Gigabyte Gaming OC or Steel Legend (but different tier of cooling/noise dba)
+
+RDNA4 cards are very impressive:
+
+[www.techpowerup.com/review/asus-radeon-rx-9070-xt-tuf-oc/40.html](https://www.techpowerup.com/review/asus-radeon-rx-9070-xt-tuf-oc/40.html)
+
+[www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html](https://www.techpowerup.com/review/pny-geforce-rtx-5070-ti-epic-x-rgb-plus-oc/40.html)
+
+ ^Samsung memory would bring those VRAM temps down.
+
+ Not only the impressive core temp but the cards are usually lighter and less bulky than 5070 Ti ones.
+
+ Even though, on paper, Navi 48 should be worse than GB203 when it comes to power density:
+
+[www.techpowerup.com/gpu-specs/radeon-rx-9070-xt.c4229](https://www.techpowerup.com/gpu-specs/radeon-rx-9070-xt.c4229)
+
+[www.techpowerup.com/gpu-specs/geforce-rtx-5070-ti.c4243](https://www.techpowerup.com/gpu-specs/geforce-rtx-5070-ti.c4243)
+
+ 9070 XT - 304 W TDP with 357 mm2 GPU die -> 0.85 W/mm2
+
+ 5070 Ti - 300 W TDP with 378 mm2 GPU die -> 0.79 W/ mm2
+
+ Posted on Nov 12th 2025, 11:48[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619650)[#11](https://www.techpowerup.com/forums/posts/5619677)[cinemaware](https://www.techpowerup.com/forums/members/cinemaware.248274/)
+
+> KritThe difference is that AMD are offering very good cooling for cheap but nvidia does not. Look at Sapphire Pulse or XFX Swift it costs the same as Reaper, Gigabyte Gaming OC or Steel Legend (but different tier of cooling/noise dba)
+
+I had Gigabyte Gaming OC cards. They are cheap (relatively speaking). The cooling is excellent. The PNY I have now is also a basic model, not the one that was linked to.
+
+ The AMD card I had was beyond terrible. 
+
+ These are real life use case, not reviews. Disregarding the AMD angle, from my experience, spending a lot of money on higher end Nvidia cards is a waste. Maybe there are some outliers, perhaps Ventus is one, but then you should return it and get a Gigabyte or PNY.
+
+ That is all :)
+
+ Posted on Nov 12th 2025, 12:22[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619677)[#12](https://www.techpowerup.com/forums/posts/5619733)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> cinemawareThese are real life use case, not reviews. Disregarding the AMD angle, from my experience, spending a lot of money on higher end Nvidia cards is a waste. Maybe there are some outliers, perhaps Ventus is one, but then you should return it and get a Gigabyte or PNY.
+
+If you look at HW unboxed video where he tests all or 16 RX 9070 XT models it shows that Gaming OC is the worst model from them all. You where very unlucky when bought your choice.
+
+![Image 16](https://www.techpowerup.com/forums/attachments/421738)
+
+ Posted on Nov 12th 2025, 13:12[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619733)[#13](https://www.techpowerup.com/forums/posts/5619743)[Artcurio](https://www.techpowerup.com/forums/members/artcurio.254480/)
+
+> cinemawareI don't know, is 10db really that big a difference in real life?
+
+> razaronEvery 10db is roughly double the IRL perceived loudness.
+
+Yep, this.
+
+ 10dB sounds twice as loud.
+> KritIf you look at HW unboxed video where he tests all or 16 RX 9070 XT models it shows that Gaming OC is the worst model from them all. You where very unlucky when bought your choice.
+> 
+> ![Image 17](https://www.techpowerup.com/forums/attachments/421738)
+
+:confused: 
+
+ There isnt a Gaming OC on that chart from any mfr ... ?
+
+ Posted on Nov 12th 2025, 13:19[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619743)[#14](https://www.techpowerup.com/forums/posts/5619752)[Krit](https://www.techpowerup.com/forums/members/krit.172140/)
+
+> ArtcurioThere isnt a Gaming OC on that chart from any mfr ... ?
+
+Gigabyte Gaming OC that's very old name since RX 5700 XT....
+
+ Posted on Nov 12th 2025, 13:23[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619752)[#15](https://www.techpowerup.com/forums/posts/5619814)[Artcurio](https://www.techpowerup.com/forums/members/artcurio.254480/)
+
+> KritGigabyte Gaming OC that's very old name since RX 5700 XT....
+
+Ok thanx.
+
+ Its not the worst model card on the chart though, its the 2nd highest clocked by quite a margin.
+
+ At 2720MHz its over 5% faster (clock speed) than 2570MHz cards.
+
+ And is nearly 10% faster than the slowest 2480MHz card.
+
+ If it were put to the same speed as most other cards, temps would look much better. Plus the option for a decent overclock without needing to tune it.
+
+ Were it too noisy, that would matter, but those are temps normalised at 40dB :)
+
+ Posted on Nov 12th 2025, 14:30[Reply](https://www.techpowerup.com/forums/threads/342857/reply?quote=5619814)[Add your own comment](https://www.techpowerup.com/forums/threads/342857/reply)
+
+Nov 15th, 2025 07:28 CST[change timezone](https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time#)
+
+[Sign in](https://www.techpowerup.com/forums/login) / [Register](https://www.techpowerup.com/forums/register)
+
+Latest GPU Drivers
+==================
+
+*   [NVIDIA GeForce 581.80 WHQL](https://www.techpowerup.com/download/nvidia-geforce-graphics-drivers/)
+*   [AMD Radeon 25.11.1 WHQL](https://www.techpowerup.com/download/amd-radeon-graphics-drivers/)
+*   [Intel Arc & iGPU 101.8250 Beta](https://www.techpowerup.com/download/intel-integrated-graphics-drivers/)
+
+[![Image 18](https://www.techpowerup.com/reviyuu/b784/_de98d1b5.png)](https://www.techpowerup.com/reviyuu/b784/3048er/images/gmchjhj.png)
+
+New Forum Posts
+===============
+
+*   07:27 by unwind-protect [Help with parts list for building a local backup server / NAS (for music projects)?](https://www.techpowerup.com/forums/threads/help-with-parts-list-for-building-a-local-backup-server-nas-for-music-projects.340400/unread) (27) 
+*   07:20 by Ruru [Post your cooling.](https://www.techpowerup.com/forums/threads/post-your-cooling.322662/unread) (365) 
+*   07:20 by Krit [RX 9000 series GPU Owners Club](https://www.techpowerup.com/forums/threads/rx-9000-series-gpu-owners-club.333786/unread) (1554) 
+*   07:17 by Dr. Dro [question on asrock x58 extreme 3 and hwinfo64](https://www.techpowerup.com/forums/threads/question-on-asrock-x58-extreme-3-and-hwinfo64.342936/unread) (4) 
+*   07:09 by TechBuyingHavoc [Battlefield 6](https://www.techpowerup.com/forums/threads/battlefield-6.339603/unread) (634) 
+*   06:35 by AusWolf [Real difference between 9070 xt and 5080?](https://www.techpowerup.com/forums/threads/real-difference-between-9070-xt-and-5080.342869/unread) (88) 
+*   06:23 by DaemonForce [1/4 pcie card in regular slot](https://www.techpowerup.com/forums/threads/1-4-pcie-card-in-regular-slot.342931/unread) (4) 
+*   05:50 by ARF [What phone you use as your daily driver? And, a discussion of them.](https://www.techpowerup.com/forums/threads/what-phone-you-use-as-your-daily-driver-and-a-discussion-of-them.287275/unread) (1930) 
+*   05:32 by Logic [Would you consider moving away from Windows?](https://www.techpowerup.com/forums/threads/would-you-consider-moving-away-from-windows.342088/unread) (163) 
+*   05:25 by CiTay [Samsung 870 EVO - Beware, certain batches prone to failure!](https://www.techpowerup.com/forums/threads/samsung-870-evo-beware-certain-batches-prone-to-failure.291504/unread) (1332) 
+
+[![Image 19](https://www.techpowerup.com/reviyuu/b784/_33ec76ce.png)](https://www.techpowerup.com/reviyuu/b784/3351er/images/gmchjhj.png)
+
+Popular Reviews
+===============
+
+*   Nov 13th, 2025[Corsair Air 5400 RS-R ARGB Review](https://www.techpowerup.com/review/corsair-air-5400-rs-r-argb/)
+*   Nov 14th, 2025[ASUS ROG Xbox Ally X Review](https://www.techpowerup.com/review/asus-rog-xbox-ally-x/)
+*   Nov 12th, 2025[Samsung ViewFinity S9 Review - A Different Take on the Apple Studio Display](https://www.techpowerup.com/review/samsung-viewfinity-s9/)
+*   Feb 27th, 2023[AMD Ryzen 9 7950X3D Review - Best of Both Worlds](https://www.techpowerup.com/review/amd-ryzen-9-7950x3d/)
+*   Nov 13th, 2025[ASRock X870 Live Mixer Wi-Fi Review](https://www.techpowerup.com/review/asrock-x870-live-mixer-wi-fi/)
+*   Nov 11th, 2025[Upcoming Hardware Launches 2025 (Updated Nov 2025)](https://www.techpowerup.com/review/future-hardware-releases/)
+*   Nov 10th, 2025[Gigabyte X870E Aorus Pro X3D Ice Review](https://www.techpowerup.com/review/gigabyte-x870e-aorus-pro-x3d-ice/)
+*   Aug 10th, 2024[We found the Missing Performance: Zen 5 Tested with SMT Disabled](https://www.techpowerup.com/review/amd-ryzen-9-9700x-performance-smt-disabled/)
+*   Nov 11th, 2025[HAVN BF 360 Flow Review](https://www.techpowerup.com/review/havn-bf-360-flow/)
+*   Nov 6th, 2024[AMD Ryzen 7 9800X3D Review - The Best Gaming Processor](https://www.techpowerup.com/review/amd-ryzen-7-9800x3d/)
+
+TPU on YouTube
+==============
+
+[](https://www.youtube.com/watch?v=zLXf2VGis3U)
+Controversial News Posts
+========================
+
+*   [No More Game Optimizations for AMD Radeon RX 6000 and RX 5000, Still Part of Main Driver Branch](https://www.techpowerup.com/342449/no-more-game-optimizations-for-amd-radeon-rx-6000-and-rx-5000-still-part-of-main-driver-branch) (250) 
+*   [Valve Announces Steam Machine, Steam Frame, and Steam Controller](https://www.techpowerup.com/342866/valve-announces-steam-machine-steam-frame-and-steam-controller) (160) 
+*   [Windows 11 25H2 October Update Bug Renders Recovery Environment Unusable](https://www.techpowerup.com/342032/windows-11-25h2-october-update-bug-renders-recovery-environment-unusable) (160) 
+*   [AMD Clarifies "Maintenance Mode" for Radeon RX 5000/6000 Series, First-Day Game Support Remains](https://www.techpowerup.com/342481/amd-clarifies-maintenance-mode-for-radeon-rx-5000-6000-series-first-day-game-support-remains) (160) 
+*   [12V-2×6 Power Connector Burns on Sapphire Radeon RX 9070 XT GPU](https://www.techpowerup.com/342541/12v-2x6-power-connector-burns-on-sapphire-radeon-rx-9070-xt-gpu) (108) 
+*   [Microsoft Breaks Localhost with Windows 11 October Update, Users Forced to Revert](https://www.techpowerup.com/341976/microsoft-breaks-localhost-with-windows-11-october-update-users-forced-to-revert) (105) 
+*   [AMD Could Launch 16-Core Ryzen 9 9950X3D2 CPU with 192 MB L3 Cache and 200 W TDP](https://www.techpowerup.com/342095/amd-could-launch-16-core-ryzen-9-9950x3d2-cpu-with-192-mb-l3-cache-and-200-w-tdp) (91) 
+*   [Creative Technology Launches Kickstarter Campaign for Sound Blaster Re:Imagine](https://www.techpowerup.com/342347/creative-technology-launches-kickstarter-campaign-for-sound-blaster-re-imagine) (88) 
+
+ Copyright © 2004-2025 www.techpowerup.com.
+
+ All rights reserved.
+
+ All trademarks used are properties of their respective owners.
+
+IMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. 
+DO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.
+
+For each idea, provide the following in JSON format:
+
+{
+  "ideas": [
+    {
+      "title": "Catchy title for the video",
+      "hook": "The exact words to say in the first 3 seconds to grab attention (≤12 words)",
+      "key_points": ["Full sentence 1 to narrate (10-15 words)", "...", "...", "...", "..."],
+      "cta": "The exact call to action to say at the end",
+      "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"],
+      "target_audience": "Specific target audience description"
+    }
+  ]
+}
+
+EXAMPLES OF FULL NARRATION SCRIPTS:
+
+Example 1 (Tech Topic):
+{
+  "title": "Unlock the iPhone 15 Action Button",
+  "hook": "Stop scrolling, Action Button turns your iPhone into automation central.",
+  "key_points": [
+    "Assign the Action Button to run Home scenes, launching lights, music, thermostat.",
+    "Use Shortcuts stacks so one press fires focus mode, reminders, hydration timer.",
+    "Set a travel press to message ETA, enable driving focus, open Maps instantly.",
+    "Combine double presses with NFC tags to trigger security cameras and garage doors.",
+    "Record a Siri phrase that toggles custom actions when the button is held."
+  ],
+  "cta": "Follow for tomorrow's tutorial showing exactly how to build these button stacks.",
+  "hashtags": ["#iPhone15", "#ActionButton", "#Automation"],
+  "target_audience": "iPhone owners who love smart home automations"
+}
+
+Example 2 (Food Topic):
+{
+  "title": "Creamiest Scrambled Eggs in Five Steps",
+  "hook": "These scrambled eggs finish like custard—here's the five-step routine.",
+  "key_points": [
+    "Start on low heat, stirring constantly so curds stay velvety and tiny.",
+    "Lift the pan off heat every fifteen seconds to halt overcooking instantly.",
+    "Fold in butter while whisking gently; it emulsifies air into ridiculous creaminess.",
+    "Finish with creme fraiche and chives, then season with flaky salt right away.",
+    "Serve immediately on warm plates so residual heat keeps them silky, never rubbery."
+  ],
+  "cta": "Save this so breakfast tomorrow tastes like a hotel brunch at home.",
+  "hashtags": ["#CookingHacks", "#Breakfast", "#EggRecipes"],
+  "target_audience": "Home cooks craving fast gourmet breakfasts"
+}
+
+Example 3 (Productivity Topic):
+{
+  "title": "Two-Minute Priority List Reset",
+  "hook": "Need focus fast? This two-minute list trick saved my mornings.",
+  "key_points": [
+    "Before touching your phone, write the single mission that defines today's success.",
+    "Add two support tasks max so the brain sees achievable, finite commitments.",
+    "Circle the hardest task and start immediately, even if progress feels microscopic.",
+    "Review the list after lunch; cross-offs trigger dopamine that fuels afternoon momentum.",
+    "Capture stray ideas on another page so the core list stays sacred."
+  ],
+  "cta": "Try it tomorrow and DM me if your focus finally sticks.",
+  "hashtags": ["#ProductivityHacks", "#MorningRoutine", "#FocusTips"],
+  "target_audience": "Busy students and professionals fighting scattered mornings"
+}
+
+Make the scripts:
+- Written in natural, conversational spoken language
+- Full sentences that can be read aloud exactly as written
+- Engaging and authentic like you're talking to a friend
+- Attention-grabbing hooks that stop the scroll
+- Hooks must be very short (max 12 words) but punchy and curiosity-driving
+- Detailed enough to understand without seeing the video
+- Platform-optimized for short-form video
+- Provide 5-10 key_points for every idea
+- Each key_point must be a complete sentence of 10-15 words, not a fragment
+
+
+======================================================================
+
+======================================================================
+SCRIPT #1 - NVIDIA RTX 5070 Ti: The Ultimate Gaming Upgrade?
+======================================================================
+
+⏱️  DURATION: 30 seconds
+📱 PLATFORM: Tiktok
+🎯 TARGET AUDIENCE: Gamers and tech enthusiasts interested in upgrading their GPUs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SCRIPT:
+
+[0-3 seconds] HOOK:
+NVIDIA's RTX 5070 Ti just hit a new low price!
+
+[3-25 seconds] MAIN CONTENT:
+  1. The NVIDIA GeForce RTX 5070 Ti has finally dipped below its MSRP for the first time.
+  2. This means you can now get this powerful GPU at a more affordable price.
+  3. The RTX 5070 Ti offers excellent performance for 1440p high refresh gaming.
+  4. It's a great choice for compact-system builders and overclocking enthusiasts.
+  5. The GPU has strong headroom for further tuning and efficient gaming power draw.
+  6. It features a factory overclock, making it a sensible and well-rounded offering.
+  7. The RTX 5070 Ti has been awarded a 'Recommended' badge by TechPowerUp.
+  8. It's a very good value for its audience, but missed Editor's Choice due to thermal and noise trade-offs.
+  9. You can get this GPU at prices below MSRP from Newegg.
+  10. Don't miss out on this opportunity to upgrade your gaming setup!
+
+[25-30 seconds] CALL TO ACTION:
+Follow us for more tech updates and tips on getting the best deals!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HASHTAGS: #NVIDIA #RTX5070Ti #GamingGPU #TechDeals #GamingUpgrade
+
+======================================================================

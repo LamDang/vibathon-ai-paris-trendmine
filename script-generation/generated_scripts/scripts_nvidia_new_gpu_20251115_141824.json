@@ -1,0 +1,61 @@
+{
+  "topic": "nvidia new gpu",
+  "generated_at": "2025-11-15T14:18:24.891831",
+  "total_scripts": 1,
+  "duration": "30 seconds",
+  "news_articles": [
+    {
+      "title": "Web Review, Week 2025-46",
+      "description": "Let’s go for my web review for the week 2025-46.\n\nValve is about to win the console generation\nTags: tech, valve, kde, hardware, gaming, desktop\nEarly days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…",
+      "url": "https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/",
+      "source": "Ipsquad.net",
+      "publishedAt": "2025-11-14T12:04:06Z"
+    },
+    {
+      "title": "China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall",
+      "description": "China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…",
+      "url": "https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html",
+      "source": "Digitimes",
+      "publishedAt": "2025-11-13T23:29:45Z"
+    },
+    {
+      "title": "NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time",
+      "description": "GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have finally dip below their MSRPs, it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Neweg…",
+      "url": "https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time",
+      "source": "Techpowerup.com",
+      "publishedAt": "2025-11-12T16:30:36Z"
+    }
+  ],
+  "news_context": "Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:\n\n1. Web Review, Week 2025-46 — Ipsquad.net\n   Summary: Let’s go for my web review for the week 2025-46.\n\nValve is about to win the console generation\nTags: tech, valve, kde, hardware, gaming, desktop\nEarly days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…\n   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/\n\n2. China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall — Digitimes\n   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…\n   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html\n\n3. NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time — Techpowerup.com\n   Summary: GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have finally dip below their MSRPs, it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Neweg…\n   URL: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time",
+  "system_prompt": "You are a creative social media content strategist specializing in viral video content. You understand platform algorithms, trends, and what makes content engaging.",
+  "user_prompt": "Generate 1 creative video ideas for Tiktok.\n\nTOPIC: nvidia new gpu\n\nPLATFORM SPECIFICATIONS:\n- Duration: 15-60 seconds\n- Best practices: Start with a strong hook, use trending sounds, add text overlays, keep it fast-paced\n\nTARGET AUDIENCE: General audience interested in the topic\n\nTONE: engaging and authentic\n\nADDITIONAL CONTEXT:\nEach video should be designed for exactly 30 seconds duration. Provide 5-10 key points per idea, each being a full sentence of 10-15 words. Hooks must be extremely catchy, curiosity-driven, and under 12 words.\n\nUse the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:\n\n1. Web Review, Week 2025-46 — Ipsquad.net\n   Summary: Let’s go for my web review for the week 2025-46.\n\nValve is about to win the console generation\nTags: tech, valve, kde, hardware, gaming, desktop\nEarly days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…\n   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/\n\n2. China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall — Digitimes\n   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…\n   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html\n\n3. NVIDIA GeForce RTX 5070 Ti Dips Below MSRP for the First Time — Techpowerup.com\n   Summary: GPU prices are finally coming down. After we saw AMD's Radeon RX 9070 and Radeon RX 9070 XT graphics cards have finally dip below their MSRPs, it seems that NVIDIA cards are now in order. NVIDIA GeForce RTX 5070 Ti slipped below its MSRP this week after Neweg…\n   URL: https://www.techpowerup.com/342857/nvidia-geforce-rtx-5070-ti-dips-below-msrp-for-the-first-time\n\nIMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. \nDO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.\n\nFor each idea, provide the following in JSON format:\n\n{\n  \"ideas\": [\n    {\n      \"title\": \"Catchy title for the video\",\n      \"hook\": \"The exact words to say in the first 3 seconds to grab attention (≤12 words)\",\n      \"key_points\": [\"Full sentence 1 to narrate (10-15 words)\", \"...\", \"...\", \"...\", \"...\"],\n      \"cta\": \"The exact call to action to say at the end\",\n      \"hashtags\": [\"#hashtag1\", \"#hashtag2\", \"#hashtag3\"],\n      \"target_audience\": \"Specific target audience description\"\n    }\n  ]\n}\n\nEXAMPLES OF FULL NARRATION SCRIPTS:\n\nExample 1 (Tech Topic):\n{\n  \"title\": \"Unlock the iPhone 15 Action Button\",\n  \"hook\": \"Stop scrolling, Action Button turns your iPhone into automation central.\",\n  \"key_points\": [\n    \"Assign the Action Button to run Home scenes, launching lights, music, thermostat.\",\n    \"Use Shortcuts stacks so one press fires focus mode, reminders, hydration timer.\",\n    \"Set a travel press to message ETA, enable driving focus, open Maps instantly.\",\n    \"Combine double presses with NFC tags to trigger security cameras and garage doors.\",\n    \"Record a Siri phrase that toggles custom actions when the button is held.\"\n  ],\n  \"cta\": \"Follow for tomorrow's tutorial showing exactly how to build these button stacks.\",\n  \"hashtags\": [\"#iPhone15\", \"#ActionButton\", \"#Automation\"],\n  \"target_audience\": \"iPhone owners who love smart home automations\"\n}\n\nExample 2 (Food Topic):\n{\n  \"title\": \"Creamiest Scrambled Eggs in Five Steps\",\n  \"hook\": \"These scrambled eggs finish like custard—here's the five-step routine.\",\n  \"key_points\": [\n    \"Start on low heat, stirring constantly so curds stay velvety and tiny.\",\n    \"Lift the pan off heat every fifteen seconds to halt overcooking instantly.\",\n    \"Fold in butter while whisking gently; it emulsifies air into ridiculous creaminess.\",\n    \"Finish with creme fraiche and chives, then season with flaky salt right away.\",\n    \"Serve immediately on warm plates so residual heat keeps them silky, never rubbery.\"\n  ],\n  \"cta\": \"Save this so breakfast tomorrow tastes like a hotel brunch at home.\",\n  \"hashtags\": [\"#CookingHacks\", \"#Breakfast\", \"#EggRecipes\"],\n  \"target_audience\": \"Home cooks craving fast gourmet breakfasts\"\n}\n\nExample 3 (Productivity Topic):\n{\n  \"title\": \"Two-Minute Priority List Reset\",\n  \"hook\": \"Need focus fast? This two-minute list trick saved my mornings.\",\n  \"key_points\": [\n    \"Before touching your phone, write the single mission that defines today's success.\",\n    \"Add two support tasks max so the brain sees achievable, finite commitments.\",\n    \"Circle the hardest task and start immediately, even if progress feels microscopic.\",\n    \"Review the list after lunch; cross-offs trigger dopamine that fuels afternoon momentum.\",\n    \"Capture stray ideas on another page so the core list stays sacred.\"\n  ],\n  \"cta\": \"Try it tomorrow and DM me if your focus finally sticks.\",\n  \"hashtags\": [\"#ProductivityHacks\", \"#MorningRoutine\", \"#FocusTips\"],\n  \"target_audience\": \"Busy students and professionals fighting scattered mornings\"\n}\n\nMake the scripts:\n- Written in natural, conversational spoken language\n- Full sentences that can be read aloud exactly as written\n- Engaging and authentic like you're talking to a friend\n- Attention-grabbing hooks that stop the scroll\n- Hooks must be very short (max 12 words) but punchy and curiosity-driving\n- Detailed enough to understand without seeing the video\n- Platform-optimized for short-form video\n- Provide 5-10 key_points for every idea\n- Each key_point must be a complete sentence of 10-15 words, not a fragment\n",
+  "scripts": [
+    {
+      "script_number": 1,
+      "title": "NVIDIA RTX 5070 Ti: Price Drop Game Changer",
+      "hook": "NVIDIA's RTX 5070 Ti just got way cheaper—here's why it matters.",
+      "key_points": [
+        "For the first time ever, the RTX 5070 Ti dipped below its MSRP this week.",
+        "This means you can now get premium performance without paying a premium price.",
+        "The RTX 5070 Ti offers cutting-edge ray tracing and AI-powered features for gamers.",
+        "It's not just about gaming; this GPU is a powerhouse for content creators too.",
+        "With this price drop, it's the perfect time to upgrade your gaming setup.",
+        "Whether you're into competitive gaming or creative work, this GPU has you covered.",
+        "Don't miss out on this opportunity to get a high-end GPU at a bargain.",
+        "Stay tuned for more tech updates and deals that you won't want to miss.",
+        "Follow us for the latest in tech news and exclusive deals on GPUs.",
+        "Let us know in the comments if you're planning to upgrade your GPU soon."
+      ],
+      "cta": "Follow us for more tech news and exclusive deals on GPUs.",
+      "hashtags": [
+        "#NVIDIA",
+        "#RTX5070Ti",
+        "#Gaming",
+        "#TechDeals",
+        "#GPU"
+      ],
+      "target_audience": "Gamers and tech enthusiasts looking for the latest GPU deals",
+      "platform": "tiktok"
+    }
+  ]
+}
