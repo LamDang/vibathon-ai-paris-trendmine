@@ -41,11 +41,18 @@ python generate_scripts.py "topic" --provider gemini
 python generate_scripts.py "topic" --provider openai
 ```
 
+### ➕ Multiple Candidates
+```bash
+python generate_scripts.py "Viral sneaker care tips" --num-ideas 5
+```
+
 ## Output Files
 
 Scripts saved to `./generated_scripts/`:
 - `scripts_TOPIC_TIMESTAMP.txt` - Human-readable
 - `scripts_TOPIC_TIMESTAMP.json` - Machine-readable
+
+All providers request structured JSON output, so parse errors should be rare. Update the provider SDKs if you see schema-related warnings.
 
 ## Pro Tips
 
@@ -85,4 +92,3 @@ Scripts saved to `./generated_scripts/`:
 ```bash
 python generate_scripts.py "5 productivity hacks for remote workers"
 ```
-

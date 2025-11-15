@@ -65,7 +65,7 @@ def save_scripts(topic, scripts, ideas, output_dir="./generated_scripts"):
     with open(txt_filepath, 'w', encoding='utf-8') as f:
         f.write(f"VIDEO SCRIPTS FOR: {topic}\n")
         f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write(f"Total Scripts: 10\n")
+        f.write(f"Total Scripts: {len(ideas)}\n")
         f.write("\n" + "="*70 + "\n")
         f.write("\n".join(scripts))
     
@@ -99,7 +99,14 @@ def save_scripts(topic, scripts, ideas, output_dir="./generated_scripts"):
     return txt_filepath, json_filepath
 
 
-def generate_10_scripts(topic, provider="mistral", platform="tiktok", save_files=True):
+def generate_10_scripts(
+    topic,
+    provider="mistral",
+    platform="tiktok",
+    num_ideas=1,
+    output_dir="./generated_scripts",
+    save_files=True
+):
     """
     Generate 10 video scripts of 30 seconds for a given topic
     
@@ -113,7 +120,7 @@ def generate_10_scripts(topic, provider="mistral", platform="tiktok", save_files
         List of formatted scripts
     """
     print(f"\n{'='*70}")
-    print(f"🎬 GENERATING 10 VIDEO SCRIPTS (30 seconds each)")
+    print(f"🎬 GENERATING {num_ideas} VIDEO SCRIPT(S) (30 seconds each)")
     print(f"{'='*70}")
     print(f"\n📝 Topic: {topic}")
     print(f"🤖 AI Provider: {provider.title()}")
@@ -131,7 +138,7 @@ def generate_10_scripts(topic, provider="mistral", platform="tiktok", save_files
         print("  OpenAI:  export OPENAI_API_KEY='your-key'")
         sys.exit(1)
     
-    # Generate 10 ideas
+    # Generate requested ideas
     platform_enum = SocialPlatform(platform)
     
     print("🎨 Generating creative scripts...")
@@ -139,8 +146,12 @@ def generate_10_scripts(topic, provider="mistral", platform="tiktok", save_files
         ideas = generator.generate_ideas(
             topic=topic,
             platform=platform_enum,
-            num_ideas=10,
-            additional_context="Each video should be designed for exactly 30 seconds duration"
+            num_ideas=num_ideas,
+            additional_context=(
+                "Each video should be designed for exactly 30 seconds duration. "
+                "Provide 5-10 key points per idea, each being a full sentence of 10-15 words. "
+                "Hooks must be extremely catchy, curiosity-driven, and under 12 words."
+            )
         )
     except Exception as e:
         print(f"\n❌ Error generating ideas: {e}")
@@ -148,7 +159,7 @@ def generate_10_scripts(topic, provider="mistral", platform="tiktok", save_files
     
     # Format as scripts
     scripts = []
-    print(f"\n✅ Successfully generated {len(ideas)} scripts!\n")
+    print(f"\n✅ Successfully generated {len(ideas)} script(s)!\n")
     
     for i, idea in enumerate(ideas, 1):
         script = format_script(idea, i)
@@ -157,7 +168,7 @@ def generate_10_scripts(topic, provider="mistral", platform="tiktok", save_files
     
     # Save to files
     if save_files:
-        txt_file, json_file = save_scripts(topic, scripts, ideas)
+        txt_file, json_file = save_scripts(topic, scripts, ideas, output_dir=output_dir)
         print(f"\n💾 Scripts saved to:")
         print(f"   📄 Text: {txt_file}")
         print(f"   📄 JSON: {json_file}")
@@ -208,6 +219,12 @@ Available AI Providers:
         help="Target social media platform (default: tiktok)"
     )
     parser.add_argument(
+        "--num-ideas",
+        type=int,
+        default=1,
+        help="Number of candidate scripts to generate (default: 1)"
+    )
+    parser.add_argument(
         "--no-save",
         action="store_true",
         help="Don't save scripts to files (only print to console)"
@@ -231,15 +248,20 @@ Available AI Providers:
             print("❌ No topic provided. Exiting.")
             sys.exit(1)
     
+    if args.num_ideas <= 0:
+        print("❌ Number of ideas must be at least 1.")
+        sys.exit(1)
+    
     # Generate scripts
     generate_10_scripts(
         topic=topic,
         provider=args.provider,
         platform=args.platform,
+        output_dir=args.output_dir,
+        num_ideas=args.num_ideas,
         save_files=not args.no_save
     )
 
 
 if __name__ == "__main__":
     main()
-

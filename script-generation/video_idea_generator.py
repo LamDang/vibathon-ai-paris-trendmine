@@ -32,6 +32,49 @@ class SocialPlatform(Enum):
     TWITTER = "twitter"
 
 
+VIDEO_IDEAS_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "ideas": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {"type": "string"},
+                    "hook": {"type": "string", "maxLength": 200},
+                    "key_points": {
+                        "type": "array",
+                        "minItems": 5,
+                        "maxItems": 10,
+                        "items": {"type": "string"}
+                    },
+                    "cta": {"type": "string"},
+                    "hashtags": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "target_audience": {"type": "string"}
+                },
+                "required": [
+                    "title",
+                    "hook",
+                    "key_points",
+                    "cta",
+                    "hashtags",
+                    "target_audience"
+                ],
+                "additionalProperties": False
+            }
+        }
+    },
+    "required": ["ideas"],
+    "additionalProperties": False
+}
+
+RESPONSE_SCHEMA_NAME = "video_ideas_response"
+
+
 @dataclass
 class VideoIdea:
     """Represents a generated video idea"""
@@ -84,7 +127,14 @@ class AIClient(ABC):
     """Abstract base class for AI providers"""
     
     @abstractmethod
-    def generate(self, system_prompt: str, user_prompt: str, temperature: float, max_tokens: int) -> str:
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float,
+        max_tokens: int,
+        response_format: Optional[Dict] = None
+    ) -> str:
         """Generate text using the AI model"""
         pass
 
@@ -101,17 +151,37 @@ class OpenAIClient(AIClient):
         except ImportError:
             raise ImportError("OpenAI package not installed. Run: pip install openai")
     
-    def generate(self, system_prompt: str, user_prompt: str, temperature: float = 0.8, max_tokens: int = 2000) -> str:
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=[
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float = 0.8,
+        max_tokens: int = 2000,
+        response_format: Optional[Dict] = None
+    ) -> str:
+        params = {
+            "model": self.model,
+            "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=temperature,
-            max_tokens=max_tokens
-        )
-        return response.choices[0].message.content
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        if response_format:
+            params["response_format"] = response_format
+        
+        response = self.client.chat.completions.create(**params)
+        message_content = response.choices[0].message.content
+        
+        # Handle SDKs that return content as list of parts
+        if isinstance(message_content, list):
+            message_content = "".join(
+                part.get("text", "") if isinstance(part, dict) else str(part)
+                for part in message_content
+            )
+        
+        return message_content
 
 
 class MistralClient(AIClient):
@@ -126,16 +196,27 @@ class MistralClient(AIClient):
         except ImportError:
             raise ImportError("Mistral package not installed. Run: pip install mistralai")
     
-    def generate(self, system_prompt: str, user_prompt: str, temperature: float = 0.8, max_tokens: int = 2000) -> str:
-        response = self.client.chat.complete(
-            model=self.model,
-            messages=[
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float = 0.8,
+        max_tokens: int = 2000,
+        response_format: Optional[Dict] = None
+    ) -> str:
+        params = {
+            "model": self.model,
+            "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=temperature,
-            max_tokens=max_tokens
-        )
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        if response_format:
+            params["response_format"] = response_format
+        
+        response = self.client.chat.complete(**params)
         return response.choices[0].message.content
 
 
@@ -152,7 +233,14 @@ class GeminiClient(AIClient):
         except ImportError:
             raise ImportError("Google Generative AI package not installed. Run: pip install google-generativeai")
     
-    def generate(self, system_prompt: str, user_prompt: str, temperature: float = 0.8, max_tokens: int = 2000) -> str:
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float = 0.8,
+        max_tokens: int = 2000,
+        response_format: Optional[Dict] = None
+    ) -> str:
         # Gemini combines system and user prompts
         full_prompt = f"{system_prompt}\n\n{user_prompt}"
         
@@ -160,6 +248,13 @@ class GeminiClient(AIClient):
             "temperature": temperature,
             "max_output_tokens": max_tokens,
         }
+        if response_format:
+            mime_type = response_format.get("mime_type")
+            if mime_type:
+                generation_config["response_mime_type"] = mime_type
+            schema = response_format.get("schema")
+            if schema:
+                generation_config["response_schema"] = schema
         
         response = self.client.generate_content(
             full_prompt,
@@ -257,12 +352,15 @@ class VideoIdeaGenerator:
         
         system_prompt = "You are a creative social media content strategist specializing in viral video content. You understand platform algorithms, trends, and what makes content engaging."
         
+        response_format = self._build_response_format()
+        
         try:
             content = self.client.generate(
                 system_prompt=system_prompt,
                 user_prompt=prompt,
                 temperature=0.8,
-                max_tokens=2000
+                max_tokens=6000,
+                response_format=response_format
             )
             
             ideas = self._parse_response(content, platform)
@@ -302,30 +400,104 @@ TONE: {tone}
             prompt += f"\nADDITIONAL CONTEXT: {additional_context}\n"
         
         prompt += """
+IMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. 
+DO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.
+
 For each idea, provide the following in JSON format:
 
 {
   "ideas": [
     {
       "title": "Catchy title for the video",
-      "hook": "The first 3 seconds hook to grab attention",
-      "key_points": ["Point 1", "Point 2", "Point 3"],
-      "cta": "Clear call to action",
+      "hook": "The exact words to say in the first 3 seconds to grab attention (≤12 words)",
+      "key_points": ["Full sentence 1 to narrate (10-15 words)", "...", "...", "...", "..."],
+      "cta": "The exact call to action to say at the end",
       "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"],
       "target_audience": "Specific target audience description"
     }
   ]
 }
 
-Make the ideas:
-- Attention-grabbing and scroll-stopping
-- Platform-optimized
-- Trend-aware
-- Authentic and relatable
-- Actionable with clear value proposition
+EXAMPLES OF FULL NARRATION SCRIPTS:
+
+Example 1 (Tech Topic):
+{
+  "title": "Unlock the iPhone 15 Action Button",
+  "hook": "Stop scrolling, Action Button turns your iPhone into automation central.",
+  "key_points": [
+    "Assign the Action Button to run Home scenes, launching lights, music, thermostat.",
+    "Use Shortcuts stacks so one press fires focus mode, reminders, hydration timer.",
+    "Set a travel press to message ETA, enable driving focus, open Maps instantly.",
+    "Combine double presses with NFC tags to trigger security cameras and garage doors.",
+    "Record a Siri phrase that toggles custom actions when the button is held."
+  ],
+  "cta": "Follow for tomorrow's tutorial showing exactly how to build these button stacks.",
+  "hashtags": ["#iPhone15", "#ActionButton", "#Automation"],
+  "target_audience": "iPhone owners who love smart home automations"
+}
+
+Example 2 (Food Topic):
+{
+  "title": "Creamiest Scrambled Eggs in Five Steps",
+  "hook": "These scrambled eggs finish like custard—here's the five-step routine.",
+  "key_points": [
+    "Start on low heat, stirring constantly so curds stay velvety and tiny.",
+    "Lift the pan off heat every fifteen seconds to halt overcooking instantly.",
+    "Fold in butter while whisking gently; it emulsifies air into ridiculous creaminess.",
+    "Finish with creme fraiche and chives, then season with flaky salt right away.",
+    "Serve immediately on warm plates so residual heat keeps them silky, never rubbery."
+  ],
+  "cta": "Save this so breakfast tomorrow tastes like a hotel brunch at home.",
+  "hashtags": ["#CookingHacks", "#Breakfast", "#EggRecipes"],
+  "target_audience": "Home cooks craving fast gourmet breakfasts"
+}
+
+Example 3 (Productivity Topic):
+{
+  "title": "Two-Minute Priority List Reset",
+  "hook": "Need focus fast? This two-minute list trick saved my mornings.",
+  "key_points": [
+    "Before touching your phone, write the single mission that defines today's success.",
+    "Add two support tasks max so the brain sees achievable, finite commitments.",
+    "Circle the hardest task and start immediately, even if progress feels microscopic.",
+    "Review the list after lunch; cross-offs trigger dopamine that fuels afternoon momentum.",
+    "Capture stray ideas on another page so the core list stays sacred."
+  ],
+  "cta": "Try it tomorrow and DM me if your focus finally sticks.",
+  "hashtags": ["#ProductivityHacks", "#MorningRoutine", "#FocusTips"],
+  "target_audience": "Busy students and professionals fighting scattered mornings"
+}
+
+Make the scripts:
+- Written in natural, conversational spoken language
+- Full sentences that can be read aloud exactly as written
+- Engaging and authentic like you're talking to a friend
+- Attention-grabbing hooks that stop the scroll
+- Hooks must be very short (max 12 words) but punchy and curiosity-driving
+- Detailed enough to understand without seeing the video
+- Platform-optimized for short-form video
+- Provide 5-10 key_points for every idea
+- Each key_point must be a complete sentence of 10-15 words, not a fragment
 """
         
         return prompt
+
+    def _build_response_format(self) -> Optional[Dict]:
+        """Return provider-specific response format to enforce JSON output"""
+        if self.provider_name in ("openai", "mistral"):
+            return {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": RESPONSE_SCHEMA_NAME,
+                    "schema": VIDEO_IDEAS_JSON_SCHEMA
+                }
+            }
+        if self.provider_name == "gemini":
+            return {
+                "mime_type": "application/json",
+                "schema": VIDEO_IDEAS_JSON_SCHEMA
+            }
+        return None
     
     def _get_platform_specs(self, platform: SocialPlatform) -> Dict:
         """Get platform-specific specifications"""
@@ -352,9 +524,19 @@ Make the ideas:
     def _parse_response(self, response: str, platform: SocialPlatform) -> List[VideoIdea]:
         """Parse AI response into VideoIdea objects"""
         try:
+            # Remove markdown code blocks if present
+            if '```json' in response:
+                response = response.split('```json')[1].split('```')[0]
+            elif '```' in response:
+                response = response.split('```')[1].split('```')[0]
+            
             # Extract JSON from response
             json_start = response.find('{')
             json_end = response.rfind('}') + 1
+            
+            if json_start == -1 or json_end == 0:
+                raise Exception("No valid JSON found in response")
+            
             json_str = response[json_start:json_end]
             
             # Clean invalid control characters that can break JSON parsing
@@ -456,4 +638,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
