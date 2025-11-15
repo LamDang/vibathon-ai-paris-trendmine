@@ -236,6 +236,21 @@ def save_scripts(
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     topic_slug = topic.replace(" ", "_").replace("/", "-")[:50]
     
+    prompt_file_path = None
+    if system_prompt or user_prompt:
+        prompt_filename = f"scripts_{topic_slug}_{timestamp}_llm_prompt.txt"
+        prompt_file_path = os.path.join(output_dir, prompt_filename)
+        with open(prompt_file_path, 'w', encoding='utf-8') as prompt_file:
+            if news_context:
+                prompt_file.write("=== NEWS CONTEXT ===\n")
+                prompt_file.write(news_context.strip() + "\n\n")
+            if system_prompt:
+                prompt_file.write("=== SYSTEM PROMPT ===\n")
+                prompt_file.write(system_prompt.strip() + "\n\n")
+            if user_prompt:
+                prompt_file.write("=== USER PROMPT ===\n")
+                prompt_file.write(user_prompt.strip() + "\n")
+    
     # Save as text file
     txt_filename = f"scripts_{topic_slug}_{timestamp}.txt"
     txt_filepath = os.path.join(output_dir, txt_filename)
@@ -259,13 +274,8 @@ def save_scripts(
             f.write("News Context Provided to AI:\n")
             f.write(news_context + "\n")
             f.write("\n" + "="*70 + "\n")
-        if system_prompt:
-            f.write("System Prompt:\n")
-            f.write(system_prompt + "\n")
-            f.write("\n" + "="*70 + "\n")
-        if user_prompt:
-            f.write("User Prompt:\n")
-            f.write(user_prompt + "\n")
+        if prompt_file_path:
+            f.write(f"LLM prompts saved separately at: {prompt_file_path}\n")
             f.write("\n" + "="*70 + "\n")
         f.write("\n".join(scripts))
     
@@ -280,8 +290,8 @@ def save_scripts(
         "duration": "30 seconds",
         "news_articles": news_articles or [],
         "news_context": news_context,
-        "system_prompt": system_prompt,
-        "user_prompt": user_prompt,
+        "prompt_file": prompt_file_path,
+        "user_prompt": user_prompt if not prompt_file_path else None,
         "scripts": [
             {
                 "script_number": i,
@@ -300,7 +310,7 @@ def save_scripts(
     with open(json_filepath, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
     
-    return txt_filepath, json_filepath
+    return txt_filepath, json_filepath, prompt_file_path
 
 
 def generate_10_scripts(
@@ -406,7 +416,7 @@ def generate_10_scripts(
     user_prompt = getattr(generator, "last_user_prompt", None)
 
     if save_files:
-        txt_file, json_file = save_scripts(
+        txt_file, json_file, prompt_file = save_scripts(
             topic,
             scripts,
             ideas,
@@ -419,6 +429,8 @@ def generate_10_scripts(
         print(f"\n💾 Scripts saved to:")
         print(f"   📄 Text: {txt_file}")
         print(f"   📄 JSON: {json_file}")
+        if prompt_file:
+            print(f"   🗂️ LLM prompts: {prompt_file}")
     
     print(f"\n{'='*70}")
     print("✨ Script generation complete!")

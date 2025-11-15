@@ -1,0 +1,141 @@
+VIDEO SCRIPTS FOR: nvidia new gpu
+Generated: 2025-11-15 14:38:00
+Total Scripts: 1
+
+======================================================================
+System prompt saved separately at: ./generated_scripts/scripts_nvidia_new_gpu_20251115_143800_system_prompt.txt
+
+======================================================================
+User Prompt:
+Generate 1 creative video ideas for Tiktok.
+
+TOPIC: nvidia new gpu
+
+PLATFORM SPECIFICATIONS:
+- Duration: 15-60 seconds
+- Best practices: Start with a strong hook, use trending sounds, add text overlays, keep it fast-paced
+
+TARGET AUDIENCE: General audience interested in the topic
+
+TONE: engaging and authentic
+
+ADDITIONAL CONTEXT:
+Each video should be designed for exactly 30 seconds duration. Provide 5-10 key points per idea, each being a full sentence of 10-15 words. Hooks must be extremely catchy, curiosity-driven, and under 12 words.
+
+IMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. 
+DO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.
+
+For each idea, provide the following in JSON format:
+
+{
+  "ideas": [
+    {
+      "title": "Catchy title for the video",
+      "hook": "The exact words to say in the first 3 seconds to grab attention (≤12 words)",
+      "key_points": ["Full sentence 1 to narrate (10-15 words)", "...", "...", "...", "..."],
+      "cta": "The exact call to action to say at the end",
+      "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"],
+      "target_audience": "Specific target audience description"
+    }
+  ]
+}
+
+EXAMPLES OF FULL NARRATION SCRIPTS:
+
+Example 1 (Tech Topic):
+{
+  "title": "Unlock the iPhone 15 Action Button",
+  "hook": "Stop scrolling, Action Button turns your iPhone into automation central.",
+  "key_points": [
+    "Assign the Action Button to run Home scenes, launching lights, music, thermostat.",
+    "Use Shortcuts stacks so one press fires focus mode, reminders, hydration timer.",
+    "Set a travel press to message ETA, enable driving focus, open Maps instantly.",
+    "Combine double presses with NFC tags to trigger security cameras and garage doors.",
+    "Record a Siri phrase that toggles custom actions when the button is held."
+  ],
+  "cta": "Follow for tomorrow's tutorial showing exactly how to build these button stacks.",
+  "hashtags": ["#iPhone15", "#ActionButton", "#Automation"],
+  "target_audience": "iPhone owners who love smart home automations"
+}
+
+Example 2 (Food Topic):
+{
+  "title": "Creamiest Scrambled Eggs in Five Steps",
+  "hook": "These scrambled eggs finish like custard—here's the five-step routine.",
+  "key_points": [
+    "Start on low heat, stirring constantly so curds stay velvety and tiny.",
+    "Lift the pan off heat every fifteen seconds to halt overcooking instantly.",
+    "Fold in butter while whisking gently; it emulsifies air into ridiculous creaminess.",
+    "Finish with creme fraiche and chives, then season with flaky salt right away.",
+    "Serve immediately on warm plates so residual heat keeps them silky, never rubbery."
+  ],
+  "cta": "Save this so breakfast tomorrow tastes like a hotel brunch at home.",
+  "hashtags": ["#CookingHacks", "#Breakfast", "#EggRecipes"],
+  "target_audience": "Home cooks craving fast gourmet breakfasts"
+}
+
+Example 3 (Productivity Topic):
+{
+  "title": "Two-Minute Priority List Reset",
+  "hook": "Need focus fast? This two-minute list trick saved my mornings.",
+  "key_points": [
+    "Before touching your phone, write the single mission that defines today's success.",
+    "Add two support tasks max so the brain sees achievable, finite commitments.",
+    "Circle the hardest task and start immediately, even if progress feels microscopic.",
+    "Review the list after lunch; cross-offs trigger dopamine that fuels afternoon momentum.",
+    "Capture stray ideas on another page so the core list stays sacred."
+  ],
+  "cta": "Try it tomorrow and DM me if your focus finally sticks.",
+  "hashtags": ["#ProductivityHacks", "#MorningRoutine", "#FocusTips"],
+  "target_audience": "Busy students and professionals fighting scattered mornings"
+}
+
+Make the scripts:
+- Written in natural, conversational spoken language
+- Full sentences that can be read aloud exactly as written
+- Engaging and authentic like you're talking to a friend
+- Attention-grabbing hooks that stop the scroll
+- Hooks must be very short (max 12 words) but punchy and curiosity-driving
+- Detailed enough to understand without seeing the video
+- Platform-optimized for short-form video
+- Provide 5-10 key_points for every idea
+- Each key_point must be a complete sentence of 10-15 words, not a fragment
+
+
+======================================================================
+
+======================================================================
+SCRIPT #1 - NVIDIA's New GPU: A Gaming Revolution
+======================================================================
+
+⏱️  DURATION: 30 seconds
+📱 PLATFORM: Tiktok
+🎯 TARGET AUDIENCE: Gamers and tech enthusiasts interested in the latest GPU technology
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SCRIPT:
+
+[0-3 seconds] HOOK:
+This new GPU will blow your mind and your FPS.
+
+[3-25 seconds] MAIN CONTENT:
+  1. NVIDIA's latest GPU packs a punch with cutting-edge technology and performance.
+  2. Experience unparalleled graphics and smooth gameplay with this next-gen hardware.
+  3. The new GPU features advanced cooling systems to keep your rig running cool.
+  4. With ray tracing capabilities, your games will look more realistic than ever.
+  5. DLSS 3.0 technology ensures you get the best performance without sacrificing quality.
+  6. This GPU is designed to handle the most demanding games with ease.
+  7. Say goodbye to lag and hello to seamless, high-FPS gaming experiences.
+  8. The new GPU is also energy-efficient, saving you money on electricity bills.
+  9. Whether you're a competitive gamer or a casual player, this GPU is a game-changer.
+  10. Get ready to elevate your gaming setup with NVIDIA's latest innovation.
+
+[25-30 seconds] CALL TO ACTION:
+Follow for more tech updates and don't forget to like and share!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HASHTAGS: #NVIDIA #GamingGPU #TechRevolution #GamingNews #NewGPU
+
+======================================================================

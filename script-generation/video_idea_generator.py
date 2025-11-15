@@ -76,6 +76,7 @@ RESPONSE_SCHEMA_NAME = "video_ideas_response"
 BASE_SCRIPT_CONTEXT = (
     "Each video should be designed for exactly 30 seconds duration. "
     "Provide 5-10 key points per idea, each being a full sentence of 10-15 words. "
+    "Make sure those key points form a single flowing story, so each sentence connects logically to the next. "
     "Hooks must be extremely catchy, curiosity-driven, and under 12 words."
 )
 
@@ -437,11 +438,11 @@ Example 1 (Tech Topic):
   "title": "Unlock the iPhone 15 Action Button",
   "hook": "Stop scrolling, Action Button turns your iPhone into automation central.",
   "key_points": [
-    "Assign the Action Button to run Home scenes, launching lights, music, thermostat.",
-    "Use Shortcuts stacks so one press fires focus mode, reminders, hydration timer.",
-    "Set a travel press to message ETA, enable driving focus, open Maps instantly.",
-    "Combine double presses with NFC tags to trigger security cameras and garage doors.",
-    "Record a Siri phrase that toggles custom actions when the button is held."
+    "I assign the Action Button to launch Home scenes, lighting rooms instantly.",
+    "Then I stack Shortcuts so one press triggers focus mode, reminders, hydration timers.",
+    "On travel days that same press texts my ETA, enables driving focus, opens Maps.",
+    "Back home, double presses plus NFC tags trigger security cameras and garage doors.",
+    "Finally I record a Siri phrase so holding the button toggles custom automations."
   ],
   "cta": "Follow for tomorrow's tutorial showing exactly how to build these button stacks.",
   "hashtags": ["#iPhone15", "#ActionButton", "#Automation"],
@@ -453,11 +454,11 @@ Example 2 (Food Topic):
   "title": "Creamiest Scrambled Eggs in Five Steps",
   "hook": "These scrambled eggs finish like custard—here's the five-step routine.",
   "key_points": [
-    "Start on low heat, stirring constantly so curds stay velvety and tiny.",
-    "Lift the pan off heat every fifteen seconds to halt overcooking instantly.",
-    "Fold in butter while whisking gently; it emulsifies air into ridiculous creaminess.",
-    "Finish with creme fraiche and chives, then season with flaky salt right away.",
-    "Serve immediately on warm plates so residual heat keeps them silky, never rubbery."
+    "I start on low heat, stirring nonstop so tiny curds stay velvety.",
+    "Every fifteen seconds I lift the pan off heat to halt overcooking immediately.",
+    "Then I fold in cold butter while whisking gently, emulsifying air into crazy creaminess.",
+    "Once it thickens, I finish with creme fraiche, chives, and immediate seasoning.",
+    "By plating instantly, the residual heat keeps everything silky instead of rubbery."
   ],
   "cta": "Save this so breakfast tomorrow tastes like a hotel brunch at home.",
   "hashtags": ["#CookingHacks", "#Breakfast", "#EggRecipes"],
@@ -469,11 +470,11 @@ Example 3 (Productivity Topic):
   "title": "Two-Minute Priority List Reset",
   "hook": "Need focus fast? This two-minute list trick saved my mornings.",
   "key_points": [
-    "Before touching your phone, write the single mission that defines today's success.",
-    "Add two support tasks max so the brain sees achievable, finite commitments.",
-    "Circle the hardest task and start immediately, even if progress feels microscopic.",
-    "Review the list after lunch; cross-offs trigger dopamine that fuels afternoon momentum.",
-    "Capture stray ideas on another page so the core list stays sacred."
+    "Before touching my phone, I write the single mission defining today's success.",
+    "I add just two support tasks so my brain sees finite commitments ahead.",
+    "Next I circle the hardest task and start immediately, however microscopic progress feels.",
+    "After lunch I review the page because crossing items fuels fresh dopamine momentum.",
+    "Every stray idea lives on another sheet so this narrative list stays sacred."
   ],
   "cta": "Try it tomorrow and DM me if your focus finally sticks.",
   "hashtags": ["#ProductivityHacks", "#MorningRoutine", "#FocusTips"],
@@ -490,6 +491,7 @@ Make the scripts:
 - Platform-optimized for short-form video
 - Provide 5-10 key_points for every idea
 - Each key_point must be a complete sentence of 10-15 words, not a fragment
+- Key_points should read like sequential narration, with each sentence advancing the same mini-story
 """
         
         return prompt

@@ -1,0 +1,472 @@
+VIDEO SCRIPTS FOR: nvidia new gpu
+Generated: 2025-11-15 14:45:35
+Total Scripts: 1
+
+======================================================================
+News Headlines Used:
+ - Web Review, Week 2025-46 (Ipsquad.net)
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+ - China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall (Digitimes)
+   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…
+   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html
+
+======================================================================
+News Context Provided to AI:
+Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:
+
+1. Web Review, Week 2025-46 — Ipsquad.net
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+   FULL ARTICLE:
+Title: Web Review, Week 2025-46 - ervin
+
+URL Source: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+Markdown Content:
+Let’s go for my web review for the week 2025-46.
+
+* * *
+
+#### Valve is about to win the console generation
+
+_Tags: tech, valve, kde, hardware, gaming, desktop_
+
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consumer devices by default. Let’s hope it sells even better than the Steam Deck.
+
+[https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/](https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/)
+
+#### Meta’s Chief AI Scientist Yann LeCun To Depart And Launch AI Start-Up Focused On ‘World Models’
+
+_Tags: tech, business, ai, machine-learning, gpt_
+
+I was actually wondering when this would happen. Was just a matter of time, would have expected this move a couple of months ago.
+
+[https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models](https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models)
+
+#### Less is More: Recursive Reasoning with Tiny Networks
+
+_Tags: tech, ai, machine-learning, reasoning, research_
+
+Clearly needs further exploration. I’d like to see it submitted in a peer reviewed journal but maybe that will come. Still it’s nice to see people for new approaches. It’s a breath of fresh air. I like it when there are actual research rather than hype. Hopefully the days of the “scale it up and magic will happen” are counted.
+
+[https://arxiv.org/abs/2510.04871](https://arxiv.org/abs/2510.04871)
+
+#### Introduction to IncusOS
+
+_Tags: tech, virtualization, containers, infrastructure, linux, incus_
+
+I didn’t know about this project. This sounds interesting, smart use of mkosi to make an Incus tailored system.
+
+[https://linuxcontainers.org/incus-os/](https://linuxcontainers.org/incus-os/)
+
+#### Linux process priorities demystified
+
+_Tags: tech, linux, kernel, processes, multithreading_
+
+Does a nice job explaining how the scheduling can be investigated from outside the kernel. It is a good introduction on the topic.
+
+[https://www.sigma-star.at/blog/2022/02/linux-proc-prios/](https://www.sigma-star.at/blog/2022/02/linux-proc-prios/)
+
+#### Announcing Magika 1.0: now faster, smarter, and rebuilt in Rust
+
+_Tags: tech, filesystem, foss_
+
+Looks more and more like an interesting solution for file type detection.
+
+[https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1](https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1)
+
+#### The (lazy) Git UI You Didn’t Know You Need
+
+_Tags: tech, git, version-control, tools_
+
+Nice tour of LazyGit. I keep hearing good things about it, I should really try it.
+
+[https://www.bwplotka.dev/2025/lazygit/](https://www.bwplotka.dev/2025/lazygit/)
+
+#### Imperative to relational
+
+_Tags: tech, databases, sql, learning_
+
+Long but nice post about all the things you need to figure out about working with databases when the only thing you know is imperative languages.
+
+[https://madhadron.com/imperative_to_relational.html](https://madhadron.com/imperative_to_relational.html)
+
+#### Automated Equality Checks in C++ with Reflection (C++26)
+
+_Tags: tech, c++, metaprogramming_
+
+Another nice use of the upcoming C++ reflection feature.
+
+[https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/](https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/)
+
+#### Hardening the C++ Standard Library at massive scale
+
+_Tags: tech, c++, safety, security, standard_
+
+Interesting work from Apple and Google to have better hardening in libc++. It’s nice to see it ripples through the upcoming C++26 standard as well.
+
+[https://queue.acm.org/detail.cfm?id=3773097](https://queue.acm.org/detail.cfm?id=3773097)
+
+#### channels-console: Real-time monitoring, metrics and logs for Rust channels
+
+_Tags: tech, rust, debugging, distributed, multithreading_
+
+Early days but this looks like interesting tooling to inspect and debug programs using Rust channels.
+
+[https://github.com/pawurb/channels-console](https://github.com/pawurb/channels-console)
+
+#### The state of the Rust dependency ecosystem
+
+_Tags: tech, rust, ecosystem, supply-chain_
+
+Interesting analysis of the crates ecosystem. It shows quite well some of the challenges and weaknesses. Nothing to worry about yet about the ecosystem health overall. Still, you should probably be careful when picking dependencies.
+
+[https://00f.net/2025/10/17/state-of-the-rust-ecosystem/](https://00f.net/2025/10/17/state-of-the-rust-ecosystem/)
+
+#### GPU Glossary
+
+_Tags: tech, gpu, hardware, learning_
+
+Looks heavy on the NVidia specifics but it looks like a very comprehensive view of the important concepts in a GPU.
+
+[https://modal.com/gpu-glossary](https://modal.com/gpu-glossary)
+
+#### The “Dependency Cutout” Workflow Pattern
+
+_Tags: tech, foss, economics, supply-chain, community_
+
+This is indeed the best way to handle your open source dependencies. I got concerns about the ability to sell that to management though because of the extra steps. It’s also probably why you want to have an OSPO in your company, it’s a good way to lower the barrier for developers to contribute this way.
+
+[https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html](https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html)
+
+#### 100% coverage is not that trivial
+
+_Tags: tech, tests, tdd, coverage_
+
+In a large codebase it’s not a given indeed. That’s why you want integration tests to get there.
+
+[https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/](https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/)
+
+#### Composable Tests
+
+_Tags: tech, tests, tdd_
+
+This is maybe the property of tests which is the most easily misunderstood. It’s not always easy to respect it as well.
+
+[https://tidyfirst.substack.com/p/composable-tests](https://tidyfirst.substack.com/p/composable-tests)
+
+#### Forget Chatbots. You Need a Notebook.
+
+_Tags: tech, note-taking, science, research, productivity_
+
+I had a few moment like this in my life. I definitely recommend it. I’ve never been more productive than isolated in a mountain with only books, notebooks and pens.
+
+[https://calnewport.com/forget-chatbots-you-need-a-notebook/](https://calnewport.com/forget-chatbots-you-need-a-notebook/)
+
+* * *
+
+Bye for now!
+
+2. China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall — Digitimes
+   Summary: China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to answer qu…
+   URL: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html
+   FULL ARTICLE:
+Title: China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall
+
+URL Source: https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html
+
+Published Time: 2025-11-14T07:29:45+08:00
+
+Markdown Content:
+China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall
+
+===============
+
+[](https://www.digitimes.com/)
+
+中文網*   [繁體](https://www.digitimes.com/tw/)
+*   [简体](https://www.digitimes.com/cn/)
+
+[SUBSCRIBE](https://www.digitimes.com/register/)
+
+*   [My account](https://www.digitimes.com/newregister/myaccount.asp?view=general)
+*   [Sign in](https://www.digitimes.com/newregister/join.asp)
+*   [](https://www.digitimes.com/register/setprofile.asp?pkg=1)
+
+[](https://www.digitimes.com/)
+*   [TECH](https://www.digitimes.com/tech/)
+    *   [Tech Home](https://www.digitimes.com/tech/)
+    *   [Semiconductors](https://www.digitimes.com/topic/semiconductors/)
+    *   [Communications](https://www.digitimes.com/topic/communications/)
+    *   [ICT](https://www.digitimes.com/topic/ict/)
+    *   [Displays](https://www.digitimes.com/topic/displays/)
+    *   [Electric Vehicles](https://www.digitimes.com/topic/electric_vehicles/)
+    *   [Sustainability](https://www.digitimes.com/topic/sustainability/)
+    *   [Aerospace](https://www.digitimes.com/topic/aerospace/)
+
+*   [REGIONS](https://www.digitimes.com/regions/)
+    *   [Asia Home](https://www.digitimes.com/regions/)
+    *   [East Asia](https://www.digitimes.com/regions/index.asp?cat=560)
+    *   [Southeast Asia](https://www.digitimes.com/regions/index.asp?cat=561)
+    *   [South Asia](https://www.digitimes.com/regions/index.asp?cat=562)
+    *   [AsiaTech Frontier](https://www.digitimes.com/asia/asc100/)
+
+*   [RESEARCH](https://www.digitimes.com/reports/)
+*   [OPINIONS](https://www.digitimes.com/opinions/)
+    *   [Opinions Home](https://www.digitimes.com/opinions/)
+    *   [Interviews](https://www.digitimes.com/opinions/index.asp?cat=567)
+    *   [Colley & Friends](https://www.digitimes.com/opinions/index.asp?cat=568)
+    *   [Commentary](https://www.digitimes.com/opinions/index.asp?cat=570)
+    *   [Research Insights](https://www.digitimes.com/opinions/index.php?cat=569)
+    *   [Column](https://www.digitimes.com/opinions/index.php?cat=659)
+
+*   [FINANCE](https://www.digitimes.com/finance/)
+*   [BIZ FOCUS](https://www.digitimes.com/biz/)
+    *   [Biz Focus Home](https://www.digitimes.com/biz/)
+    Trending Issues 
+    *   [COMPUTEX](https://www.digitimes.com/biz/index.asp?cat=61)
+    *   [SEMICON](https://www.digitimes.com/biz/index.php?cat=671)
+    *   [CES](https://www.digitimes.com/biz/index.asp?cat=450)
+
+*   [EVENT+](https://www.digitimes.com/eventplus/)
+    *   [Event+ home](https://www.digitimes.com/eventplus/)
+    *   [Featured Events](https://www.digitimes.com/eventplus/index.asp?pg=1)
+
+*   [MULTIMEDIA](https://www.digitimes.com/multimedia/)
+
+[SUBSCRIBE](https://www.digitimes.com/register/)
+
+*   [My account](https://www.digitimes.com/newregister/myaccount.asp?view=general)
+*   [Sign in](https://www.digitimes.com/newregister/join.asp)
+*   [](https://www.digitimes.com/register/setprofile.asp?pkg=1)
+
+Trending [Donald Trump](https://www.digitimes.com/tag/donald_trump/0019673.html)[Nexperia](https://www.digitimes.com/tag/nexperia/0019779.html)[Meet the Analysts](https://www.digitimes.com/reports/research.php)[NTN Convergence](https://www.digitimes.com/reports/2025_ntn_convergence/)[Robotics Report](https://www.digitimes.com/reports/ai/2025_robots/)[AI Server Report](https://www.digitimes.com/reports/ai/2024_ai_server/)[SCMP Bundle](https://www.digitimes.com/register/package/)
+
+[](https://www.digitimes.com/)[](https://www.digitimes.com/newregister/myaccount.asp?view=general)
+
+Trending
+
+[SUBSCRIBE](https://www.digitimes.com/register/)
+
+CONNECT WITH US
+
+[](https://www.facebook.com/DIGITIMESAsia/)[](https://www.linkedin.com/company/digitimes/)[](https://twitter.com/DIGITIMESAsia)[](https://www.instagram.com/DIGITIMESAsia/)[](https://www.youtube.com/@DIGITIMES)[](mailto:scription@digitimes.com)
+
+[![Image 1: marketing](https://img.digitimes.com/ad/en_20250923_b2b_leaderboard.jpg)](https://www.digitimes.com/webad/cnv.asp?Seq=95208)
+
+[![Image 2: Asia webinar 1205](https://img.digitimes.com/ad/en_20251030_asiawebinar1128_button336x90.gif)](https://www.digitimes.com/webad/cnv.asp?Seq=95691)
+
+[Home](https://www.digitimes.com/index.asp)[Tech](https://www.digitimes.com/tech/)[ICT](https://www.digitimes.com/topic/ict/)
+
+China's Moonshot AI claims new model rivals GPT-5 despite GPU shortfall
+=======================================================================
+
+Ollie Chang, Taipei; Levi Li, DIGITIMES Asia Friday 14 November 2025[0](https://www.digitimes.com/newsshow/comment.asp?datePublish=2025/11/13&pages=PD&seq=236)
+
+[](https://www.facebook.com/sharer/sharer.php?u=https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html)[](https://twitter.com/intent/tweet?url=https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html&text=China%27s%20Moonshot%20AI%20claims%20new%20model%20rivals%20GPT-5%20despite%20GPU%20shortfall)[](https://www.linkedin.com/shareArticle?mini=true&url=https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html)[](https://www.digitimes.com/newsshow/emailnews.asp?datePublish=2025/11/13&pages=PD&seq=236)
+
+![Image 3](https://img.digitimes.com/newsshow/20251113pd236_files/2_b.jpg)
+Credit: AFP
+
+China's Moonshot AI has launched its Kimi K2 Thinking model, which tops OpenAI's GPT-5 in multiple reasoning and coding tests while delivering lower training costs and full commercial availability. Company executives made a rare online appearance to...
+
+The article requires paid subscription. [Subscribe Now](https://www.digitimes.com/register/)
+
+LOGIN 
+
+ Email address  
+
+ Password  
+
+[Save my User ID and Password](javascript:void(0))- [x]  
+
+**Save my User ID and Password**
+
+Some subscribers prefer to save their log-in information so they do not have to enter their User ID and Password each time they visit the site. To activate this function, check the 'Save my User ID and Password' box in the log-in section. This will save the password on the computer you're using to access the site.
+
+**Note:**_If you choose to use the log-out feature, you will lose your saved information. This means you will be required to log-in the next time you visit our site._
+
+ SIGN IN 
+
+NEW individual users please [**REGISTER**](https://www.digitimes.com/register/setprofile.asp?pkg=1) first.
+
+Enterprise user first-time [**LOGIN**](https://www.digitimes.com/register/enterprise.asp).
+
+[I forgot my ID and/or password?](https://www.digitimes.com/newregister/userinfo.asp)
+
+MEMBERSHIP BENEFITS 
+
+*   Full access to articles dating back to 2000.
+*   Real-time access to the news as it breaks.
+*   Access to premium content.
+*   Full access to Tomorrow's Headlines.
+*   Asia Supply Chain 250 dataset access.
+
+Related stories
+
+[Thinking Electronic stands to grow in Nvidia's 800V AI server era](https://www.digitimes.com/news/a20250812PD221/thinking-electronic-data-center-nvidia-ai-server-growth.html)[OpenAI's GPT-5 fails to impress market despite advanced claims](https://www.digitimes.com/news/a20250811PD219/openai-ai-llm-performance-market.html)[OpenAI launches more powerful GPT-5 model for coding and writing](https://www.digitimes.com/news/a20250808VL203/openai-chatgpt-competition-software.html)
+
+[Alibaba upgrades Qwen3 series, surpassing OpenAI and DeepSeek in math and coding capabilities](https://www.digitimes.com/news/a20250724PD221/deepseek-alibaba-openai-2025-development.html)[China's AI sprint: MiniMax, Moonshot lock horns in multimodal model race](https://www.digitimes.com/news/a20250623VL204/2024-openai-business.html)
+
+Show more
+
+Categories
+
+[AI](https://www.digitimes.com/topic/ict/ai/)[IT + CE](https://www.digitimes.com/topic/ict/)
+
+Tags
+
+[China](https://www.digitimes.com/tag/china/00151.html)[commercial](https://www.digitimes.com/tag/commercial/0015198.html)[cost](https://www.digitimes.com/tag/cost/0014497.html)[DeepSeek](https://www.digitimes.com/tag/deepseek/00114524.html)[Nvidia H800](https://www.digitimes.com/tag/nvidia_h800/00113418.html)[online](https://www.digitimes.com/tag/online/001366.html)[OpenAI](https://www.digitimes.com/tag/openai/00112633.html)[Thinking](https://www.digitimes.com/tag/thinking/0014129.html)[training](https://www.digitimes.com/tag/training/0014828.html)
+
+Share this article
+
+[](https://www.facebook.com/sharer/sharer.php?u=https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html)[](https://twitter.com/intent/tweet?url=https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html&text=China%27s%20Moonshot%20AI%20claims%20new%20model%20rivals%20GPT-5%20despite%20GPU%20shortfall)[](https://www.linkedin.com/shareArticle?mini=true&url=https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html)[](https://www.digitimes.com/newsshow/emailnews.asp?datePublish=2025/11/13&pages=PD&seq=236)
+
+Picks for you
+
+[![Image 4](https://content-thumbnail.cxpublic.com/content/dominantthumbnail/82666725a66728e1481d3354065f83a0088cc298.jpg?6915b59e)](https://www.digitimes.com/news/a20251113VL211/foxconn-chairman-young-liu-openai-partnership.html)
+
+[Foxconn confirms OpenAI partnership, doubling down on trillion-dollar compute race](https://www.digitimes.com/news/a20251113VL211/foxconn-chairman-young-liu-openai-partnership.html)
+
+[![Image 5](https://content-thumbnail.cxpublic.com/content/dominantthumbnail/979c818a97e0763d054c9cd307a831dd40450cdb.jpg?69143b9f)](https://www.digitimes.com/news/a20251110PD227/spacex-rocket-launch-cost-elon-musk.html)
+
+[As SpaceX redefines rocket economics, Musk eyes next industrial frontier](https://www.digitimes.com/news/a20251110PD227/spacex-rocket-launch-cost-elon-musk.html)
+
+[![Image 6](https://content-thumbnail.cxpublic.com/content/dominantthumbnail/2d362d58147b5f46dede91e08a26d20273a25b96.jpg?69170df8)](https://www.digitimes.com/news/a20251112PD243/taiwan-luxgen-ev-market-market-vehicle.html)
+
+[Taiwan's EV market heats up as Luxgen N5 prepares for debut](https://www.digitimes.com/news/a20251112PD243/taiwan-luxgen-ev-market-market-vehicle.html)
+
+[![Image 7](https://content-thumbnail.cxpublic.com/content/dominantthumbnail/f8f348299829cfbae5e686071313f6afe6357f69.jpg?691433f6)](https://www.digitimes.com/news/a20251112PD242/dram-sk-hynix-hbm-2025-production.html)
+
+[SK Hynix targets 70% DRAM profit margin amid supply crunch](https://www.digitimes.com/news/a20251112PD242/dram-sk-hynix-hbm-2025-production.html)
+
+[Related topics](https://www.digitimes.com/topic/)
+
+[Global supply chain: Emerging tech, businesses](https://www.digitimes.com/topic/global_supply_chain_emerging_tech_businesses/a001550.html)
+
+[Global supply chain: China market](https://www.digitimes.com/topic/global_supply_chain_china_market/a001551.html)
+
+[Asia](https://www.digitimes.com/topic/asia/a001555.html)
+
+[Regions](https://www.digitimes.com/asia/)
+
+[![Image 8: Asia webinar 1205](https://img.digitimes.com/ad/en_20251030_asiawebinar1128_button336x90.gif)](https://www.digitimes.com/webad/cnv.asp?Seq=95691)
+
+[![Image 9: Research Report Database](https://img.digitimes.com/ad/en_20241019_asia_bigbutton.jpg)](https://www.digitimes.com/webad/cnv.asp?Seq=92667)
+
+[BIZ FOCUS](https://www.digitimes.com/biz/)
+
+[Oct 2, 10:32 SK Group partners with OpenAI to advance global AI infrastructure](https://www.digitimes.com/news/a20251001PR200.html?chid=9)
+
+[Thursday 30 October 2025 Asian Power Devices Officially Launches New Vietnam Factory, Setting a New Global Production Milestone](https://www.digitimes.com/news/a20251029PR201.html?chid=9)[Thursday 30 October 2025 BIWIN Mini SSD Named to TIME's 'Best Inventions of 2025'](https://www.digitimes.com/news/a20251030PR200.html?chid=9)[Thursday 23 October 2025 Femtometrix Honored by the World's Leading Memory Manufacturer, for Pioneering Optical Process Control Technologies](https://www.digitimes.com/news/a20251022PR203.html?chid=9)
+
+[![Image 10: aiexpo2026](https://img.digitimes.com/ad/en_20251101_aiexpo2026_bigbutton.gif)](https://www.digitimes.com/webad/cnv.asp?Seq=95762)
+
+*   [MOST-READ](https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html#topnews)
+*   [7 DAYS NEWS](https://www.digitimes.com/news/a20251113PD236/china-ai-training-cost-openai.html#calendar)
+
+*   [Samsung launches aggressive price-cut strategy to catch up in HBM competition](https://www.digitimes.com/news/a20251027PD203/samsung-hbm4-price-competition-sk-hynix.html)
+*   [Broadcom and Marvell land major AI accelerator orders, TSMC remains key manufacturer](https://www.digitimes.com/news/a20251022PD236/accelerator-aws-google-broadcom-marvell.html)
+*   [Exclusive: Samsung delays DDR5 contract pricing to mid-November as spot prices triple](https://www.digitimes.com/news/a20251103PD207/ddr5-price-dram-memory-demand-samsung.html)
+*   [TSMC unveils four-year price hike for advanced chips starting 2026](https://www.digitimes.com/news/a20251103PD204/tsmc-2026-manufacturing-price-increase-production.html)
+*   [Memory shortage hits 70% order fulfillment; server DRAM prices surge 50%](https://www.digitimes.com/news/a20251028PD216/dram-chip-shortage-price-market-demand.html)
+
+*   [Commentary: The AI bubble question resurfaces, yet China's cycle logic diverges sharply](https://www.digitimes.com/news/a20251113PD229/ai-nvidia-silicon-valley-2025.html)
+*   [Research insight: SpaceX strengthens lead in LEO satellites with reusable rockets, standardized bus, and cost-efficient components](https://www.digitimes.com/news/a20251107PD206/spacex-leo-commercial-investment-launch.html)
+*   [Fei-Fei Li says spatial intelligence is the next frontier in GenAI](https://www.digitimes.com/news/a20251113PD238/language.html)
+*   [Memory panic buying grips tech industry as shortage extends to 2027](https://www.digitimes.com/news/a20251114PD221/2026-ddr5-hbm-market-2025.html)
+*   [China fine-tunes its Thousand Talents campaign to lure South Korean scientists](https://www.digitimes.com/news/a20251113PD220/technology.html)
+
+[Full list](https://www.digitimes.com/calendar.asp?d=7d&dt_ref=tabs)
+
+[Join our mailing list](https://www.digitimes.com/register/setprofile.asp?pkg=1&dt_ref=20251113PD236)
+
+DIGITIMES
+
+*   [About](https://www.digitimes.com/about.asp)
+*   [Advertising](https://www.digitimes.com/ads.asp)
+*   [Membership](https://www.digitimes.com/register/)
+*   [Terms & conditions](https://www.digitimes.com/register/terms.asp)
+*   [Privacy policy](https://www.digitimes.com/register/privacypolicy.asp)
+*   [Copyright policy](https://www.digitimes.com/register/copyrightpolicy.asp)
+*   [Contact us](https://www.digitimes.com/contact.asp)
+*   [Notes & corrections](https://www.digitimes.com/backgrounders/features/sitenote.asp)
+*   [Site map](https://www.digitimes.com/site_map.asp)
+*   [中文網繁體](https://www.digitimes.com/tw/)
+*   [中文网简体](https://www.digitimes.com/cn/)
+
+TOOLS & SERVICES
+
+*   [Tomorrow's Headlines](https://www.digitimes.com/backgrounders/features/snapshots.asp)
+*   [7 days news](https://www.digitimes.com/calendar.asp?d=7d)
+*   [Web news elsewhere](https://www.digitimes.com/backgrounders/features/newslinks.asp)
+*   [Topics](https://www.digitimes.com/topic/)
+*   [RSS](https://www.digitimes.com/rss/daily.xml)
+
+©2025 DIGITIMES Inc. All rights reserved.
+
+[](https://www.facebook.com/DIGITIMESAsia/)[](https://www.linkedin.com/company/digitimes/)[](https://twitter.com/DIGITIMESAsia)[](https://www.instagram.com/DIGITIMESAsia/)[](https://www.youtube.com/@DigitimesAsia)[](mailto:subscription@digitimes.com)
+
+Please do not republish, publicly broadcast or publicly transmit content from this website without written permission from DIGITIMES Inc. Please contact us if you have any questions.
+
+##### Members only
+
+×
+
+Sorry, the page you are trying to open is available only for our paid subscribers. 
+*   Please [login](https://www.digitimes.com/newregister/join.asp) to read more
+*   New users, please [register](https://www.digitimes.com/register/) first
+
+##### Notification
+
+×
+
+======================================================================
+LLM prompts saved separately at: ./generated_scripts/scripts_nvidia_new_gpu_20251115_144535_llm_prompt.txt
+
+======================================================================
+
+======================================================================
+SCRIPT #1 - Nvidia's New GPU: A Game Changer?
+======================================================================
+
+⏱️  DURATION: 30 seconds
+📱 PLATFORM: Tiktok
+🎯 TARGET AUDIENCE: Gamers, AI enthusiasts, and tech professionals interested in the latest hardware advancements
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SCRIPT:
+
+[0-3 seconds] HOOK:
+Nvidia's new GPU could revolutionize gaming and AI.
+
+[3-25 seconds] MAIN CONTENT:
+  1. Nvidia's latest GPU promises unparalleled performance for gamers and AI enthusiasts.
+  2. With advanced ray tracing and AI capabilities, it sets a new standard.
+  3. Early benchmarks show a 50% boost in frame rates compared to previous models.
+  4. The GPU's AI features enable real-time rendering and advanced machine learning tasks.
+  5. Gamers and professionals alike are eagerly awaiting its release and pricing details.
+  6. The new GPU could potentially outperform competitors like AMD and Intel.
+  7. Nvidia's focus on sustainability includes energy-efficient designs and eco-friendly packaging.
+  8. The GPU's compatibility with existing systems makes it a versatile choice for users.
+  9. Nvidia's community of developers is already creating innovative applications for the new hardware.
+  10. Stay tuned for more updates as we dive deeper into its features and performance.
+
+[25-30 seconds] CALL TO ACTION:
+Follow us for more tech updates and let us know what you think!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HASHTAGS: #NvidiaGPU #Gaming #AI #TechNews #Innovation
+
+======================================================================
