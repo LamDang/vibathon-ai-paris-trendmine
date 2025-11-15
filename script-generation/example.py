@@ -5,7 +5,7 @@ Demonstrates various features and use cases
 """
 
 import os
-from video_idea_generator import VideoIdeaGenerator, SocialPlatform
+from generate_scripts import VideoIdeaGenerator, SocialPlatform
 from topic_manager import TopicManager
 from batch_generator import BatchGenerator
 from templates import TemplateManager
@@ -244,4 +244,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

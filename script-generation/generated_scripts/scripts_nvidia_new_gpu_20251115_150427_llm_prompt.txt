@@ -1,0 +1,367 @@
+=== NEWS CONTEXT ===
+Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:
+
+1. Web Review, Week 2025-46 — Ipsquad.net
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+   FULL ARTICLE:
+Title: Web Review, Week 2025-46 - ervin
+
+URL Source: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+Markdown Content:
+Let’s go for my web review for the week 2025-46.
+
+* * *
+
+#### Valve is about to win the console generation
+
+_Tags: tech, valve, kde, hardware, gaming, desktop_
+
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consumer devices by default. Let’s hope it sells even better than the Steam Deck.
+
+[https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/](https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/)
+
+#### Meta’s Chief AI Scientist Yann LeCun To Depart And Launch AI Start-Up Focused On ‘World Models’
+
+_Tags: tech, business, ai, machine-learning, gpt_
+
+I was actually wondering when this would happen. Was just a matter of time, would have expected this move a couple of months ago.
+
+[https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models](https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models)
+
+#### Less is More: Recursive Reasoning with Tiny Networks
+
+_Tags: tech, ai, machine-learning, reasoning, research_
+
+Clearly needs further exploration. I’d like to see it submitted in a peer reviewed journal but maybe that will come. Still it’s nice to see people for new approaches. It’s a breath of fresh air. I like it when there are actual research rather than hype. Hopefully the days of the “scale it up and magic will happen” are counted.
+
+[https://arxiv.org/abs/2510.04871](https://arxiv.org/abs/2510.04871)
+
+#### Introduction to IncusOS
+
+_Tags: tech, virtualization, containers, infrastructure, linux, incus_
+
+I didn’t know about this project. This sounds interesting, smart use of mkosi to make an Incus tailored system.
+
+[https://linuxcontainers.org/incus-os/](https://linuxcontainers.org/incus-os/)
+
+#### Linux process priorities demystified
+
+_Tags: tech, linux, kernel, processes, multithreading_
+
+Does a nice job explaining how the scheduling can be investigated from outside the kernel. It is a good introduction on the topic.
+
+[https://www.sigma-star.at/blog/2022/02/linux-proc-prios/](https://www.sigma-star.at/blog/2022/02/linux-proc-prios/)
+
+#### Announcing Magika 1.0: now faster, smarter, and rebuilt in Rust
+
+_Tags: tech, filesystem, foss_
+
+Looks more and more like an interesting solution for file type detection.
+
+[https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1](https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1)
+
+#### The (lazy) Git UI You Didn’t Know You Need
+
+_Tags: tech, git, version-control, tools_
+
+Nice tour of LazyGit. I keep hearing good things about it, I should really try it.
+
+[https://www.bwplotka.dev/2025/lazygit/](https://www.bwplotka.dev/2025/lazygit/)
+
+#### Imperative to relational
+
+_Tags: tech, databases, sql, learning_
+
+Long but nice post about all the things you need to figure out about working with databases when the only thing you know is imperative languages.
+
+[https://madhadron.com/imperative_to_relational.html](https://madhadron.com/imperative_to_relational.html)
+
+#### Automated Equality Checks in C++ with Reflection (C++26)
+
+_Tags: tech, c++, metaprogramming_
+
+Another nice use of the upcoming C++ reflection feature.
+
+[https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/](https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/)
+
+#### Hardening the C++ Standard Library at massive scale
+
+_Tags: tech, c++, safety, security, standard_
+
+Interesting work from Apple and Google to have better hardening in libc++. It’s nice to see it ripples through the upcoming C++26 standard as well.
+
+[https://queue.acm.org/detail.cfm?id=3773097](https://queue.acm.org/detail.cfm?id=3773097)
+
+#### channels-console: Real-time monitoring, metrics and logs for Rust channels
+
+_Tags: tech, rust, debugging, distributed, multithreading_
+
+Early days but this looks like interesting tooling to inspect and debug programs using Rust channels.
+
+[https://github.com/pawurb/channels-console](https://github.com/pawurb/channels-console)
+
+#### The state of the Rust dependency ecosystem
+
+_Tags: tech, rust, ecosystem, supply-chain_
+
+Interesting analysis of the crates ecosystem. It shows quite well some of the challenges and weaknesses. Nothing to worry about yet about the ecosystem health overall. Still, you should probably be careful when picking dependencies.
+
+[https://00f.net/2025/10/17/state-of-the-rust-ecosystem/](https://00f.net/2025/10/17/state-of-the-rust-ecosystem/)
+
+#### GPU Glossary
+
+_Tags: tech, gpu, hardware, learning_
+
+Looks heavy on the NVidia specifics but it looks like a very comprehensive view of the important concepts in a GPU.
+
+[https://modal.com/gpu-glossary](https://modal.com/gpu-glossary)
+
+#### The “Dependency Cutout” Workflow Pattern
+
+_Tags: tech, foss, economics, supply-chain, community_
+
+This is indeed the best way to handle your open source dependencies. I got concerns about the ability to sell that to management though because of the extra steps. It’s also probably why you want to have an OSPO in your company, it’s a good way to lower the barrier for developers to contribute this way.
+
+[https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html](https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html)
+
+#### 100% coverage is not that trivial
+
+_Tags: tech, tests, tdd, coverage_
+
+In a large codebase it’s not a given indeed. That’s why you want integration tests to get there.
+
+[https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/](https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/)
+
+#### Composable Tests
+
+_Tags: tech, tests, tdd_
+
+This is maybe the property of tests which is the most easily misunderstood. It’s not always easy to respect it as well.
+
+[https://tidyfirst.substack.com/p/composable-tests](https://tidyfirst.substack.com/p/composable-tests)
+
+#### Forget Chatbots. You Need a Notebook.
+
+_Tags: tech, note-taking, science, research, productivity_
+
+I had a few moment like this in my life. I definitely recommend it. I’ve never been more productive than isolated in a mountain with only books, notebooks and pens.
+
+[https://calnewport.com/forget-chatbots-you-need-a-notebook/](https://calnewport.com/forget-chatbots-you-need-a-notebook/)
+
+* * *
+
+Bye for now!
+
+=== SYSTEM PROMPT ===
+You are a creative social media content strategist specializing in viral video content. You understand platform algorithms, trends, and what makes content engaging.
+
+=== USER PROMPT ===
+Generate 1 creative video ideas for Tiktok.
+
+TOPIC: nvidia new gpu
+
+PLATFORM SPECIFICATIONS:
+- Duration: 15-60 seconds
+- Best practices: Start with a strong hook, use trending sounds, add text overlays, keep it fast-paced
+
+TARGET AUDIENCE: General audience interested in the topic
+
+TONE: engaging and authentic
+
+ADDITIONAL CONTEXT:
+Each video should be designed for exactly 30 seconds duration. Provide 5-10 key points per idea, each being a full sentence of 10-15 words. Make sure those key points form a single flowing story, so each sentence connects logically to the next. Hooks must be extremely catchy, curiosity-driven, and under 12 words.
+
+Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:
+
+1. Web Review, Week 2025-46 — Ipsquad.net
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+   FULL ARTICLE:
+Title: Web Review, Week 2025-46 - ervin
+
+URL Source: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+Markdown Content:
+Let’s go for my web review for the week 2025-46.
+
+* * *
+
+#### Valve is about to win the console generation
+
+_Tags: tech, valve, kde, hardware, gaming, desktop_
+
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consumer devices by default. Let’s hope it sells even better than the Steam Deck.
+
+[https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/](https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/)
+
+#### Meta’s Chief AI Scientist Yann LeCun To Depart And Launch AI Start-Up Focused On ‘World Models’
+
+_Tags: tech, business, ai, machine-learning, gpt_
+
+I was actually wondering when this would happen. Was just a matter of time, would have expected this move a couple of months ago.
+
+[https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models](https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models)
+
+#### Less is More: Recursive Reasoning with Tiny Networks
+
+_Tags: tech, ai, machine-learning, reasoning, research_
+
+Clearly needs further exploration. I’d like to see it submitted in a peer reviewed journal but maybe that will come. Still it’s nice to see people for new approaches. It’s a breath of fresh air. I like it when there are actual research rather than hype. Hopefully the days of the “scale it up and magic will happen” are counted.
+
+[https://arxiv.org/abs/2510.04871](https://arxiv.org/abs/2510.04871)
+
+#### Introduction to IncusOS
+
+_Tags: tech, virtualization, containers, infrastructure, linux, incus_
+
+I didn’t know about this project. This sounds interesting, smart use of mkosi to make an Incus tailored system.
+
+[https://linuxcontainers.org/incus-os/](https://linuxcontainers.org/incus-os/)
+
+#### Linux process priorities demystified
+
+_Tags: tech, linux, kernel, processes, multithreading_
+
+Does a nice job explaining how the scheduling can be investigated from outside the kernel. It is a good introduction on the topic.
+
+[https://www.sigma-star.at/blog/2022/02/linux-proc-prios/](https://www.sigma-star.at/blog/2022/02/linux-proc-prios/)
+
+#### Announcing Magika 1.0: now faster, smarter, and rebuilt in Rust
+
+_Tags: tech, filesystem, foss_
+
+Looks more and more like an interesting solution for file type detection.
+
+[https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1](https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1)
+
+#### The (lazy) Git UI You Didn’t Know You Need
+
+_Tags: tech, git, version-control, tools_
+
+Nice tour of LazyGit. I keep hearing good things about it, I should really try it.
+
+[https://www.bwplotka.dev/2025/lazygit/](https://www.bwplotka.dev/2025/lazygit/)
+
+#### Imperative to relational
+
+_Tags: tech, databases, sql, learning_
+
+Long but nice post about all the things you need to figure out about working with databases when the only thing you know is imperative languages.
+
+[https://madhadron.com/imperative_to_relational.html](https://madhadron.com/imperative_to_relational.html)
+
+#### Automated Equality Checks in C++ with Reflection (C++26)
+
+_Tags: tech, c++, metaprogramming_
+
+Another nice use of the upcoming C++ reflection feature.
+
+[https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/](https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/)
+
+#### Hardening the C++ Standard Library at massive scale
+
+_Tags: tech, c++, safety, security, standard_
+
+Interesting work from Apple and Google to have better hardening in libc++. It’s nice to see it ripples through the upcoming C++26 standard as well.
+
+[https://queue.acm.org/detail.cfm?id=3773097](https://queue.acm.org/detail.cfm?id=3773097)
+
+#### channels-console: Real-time monitoring, metrics and logs for Rust channels
+
+_Tags: tech, rust, debugging, distributed, multithreading_
+
+Early days but this looks like interesting tooling to inspect and debug programs using Rust channels.
+
+[https://github.com/pawurb/channels-console](https://github.com/pawurb/channels-console)
+
+#### The state of the Rust dependency ecosystem
+
+_Tags: tech, rust, ecosystem, supply-chain_
+
+Interesting analysis of the crates ecosystem. It shows quite well some of the challenges and weaknesses. Nothing to worry about yet about the ecosystem health overall. Still, you should probably be careful when picking dependencies.
+
+[https://00f.net/2025/10/17/state-of-the-rust-ecosystem/](https://00f.net/2025/10/17/state-of-the-rust-ecosystem/)
+
+#### GPU Glossary
+
+_Tags: tech, gpu, hardware, learning_
+
+Looks heavy on the NVidia specifics but it looks like a very comprehensive view of the important concepts in a GPU.
+
+[https://modal.com/gpu-glossary](https://modal.com/gpu-glossary)
+
+#### The “Dependency Cutout” Workflow Pattern
+
+_Tags: tech, foss, economics, supply-chain, community_
+
+This is indeed the best way to handle your open source dependencies. I got concerns about the ability to sell that to management though because of the extra steps. It’s also probably why you want to have an OSPO in your company, it’s a good way to lower the barrier for developers to contribute this way.
+
+[https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html](https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html)
+
+#### 100% coverage is not that trivial
+
+_Tags: tech, tests, tdd, coverage_
+
+In a large codebase it’s not a given indeed. That’s why you want integration tests to get there.
+
+[https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/](https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/)
+
+#### Composable Tests
+
+_Tags: tech, tests, tdd_
+
+This is maybe the property of tests which is the most easily misunderstood. It’s not always easy to respect it as well.
+
+[https://tidyfirst.substack.com/p/composable-tests](https://tidyfirst.substack.com/p/composable-tests)
+
+#### Forget Chatbots. You Need a Notebook.
+
+_Tags: tech, note-taking, science, research, productivity_
+
+I had a few moment like this in my life. I definitely recommend it. I’ve never been more productive than isolated in a mountain with only books, notebooks and pens.
+
+[https://calnewport.com/forget-chatbots-you-need-a-notebook/](https://calnewport.com/forget-chatbots-you-need-a-notebook/)
+
+* * *
+
+Bye for now!
+
+IMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. 
+DO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.
+
+For each idea, provide the following in JSON format:
+
+{
+  "ideas": [
+    {
+      "title": "Catchy title for the video",
+      "hook": "The exact words to say in the first 3 seconds to grab attention (≤12 words)",
+      "key_points": ["Full sentence 1 to narrate (10-15 words)", "...", "...", "...", "..."],
+      "cta": "The exact call to action to say at the end",
+      "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"],
+      "target_audience": "Specific target audience description"
+    }
+  ]
+}
+
+Make the scripts:
+- Written in natural, conversational spoken language
+- Full sentences that can be read aloud exactly as written
+- Engaging and authentic like you're talking to a friend
+- Attention-grabbing hooks that stop the scroll
+- Hooks must be very short (max 12 words) but punchy and curiosity-driving
+- Detailed enough to understand without seeing the video
+- Platform-optimized for short-form video
+- Provide 5-10 key_points for every idea
+- Each key_point must be a complete sentence of 10-15 words, not a fragment
+- Key_points should read like sequential narration, with each sentence advancing the same mini-story

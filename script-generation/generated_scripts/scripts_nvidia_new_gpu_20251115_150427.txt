@@ -1,0 +1,215 @@
+VIDEO SCRIPTS FOR: nvidia new gpu
+Generated: 2025-11-15 15:04:27
+Total Scripts: 1
+
+======================================================================
+News Headlines Used:
+ - Web Review, Week 2025-46 (Ipsquad.net)
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+======================================================================
+News Context Provided to AI:
+Use the following recent news stories as factual inspiration. Keep references to the actual events accurate and concise:
+
+1. Web Review, Week 2025-46 — Ipsquad.net
+   Summary: Let’s go for my web review for the week 2025-46.
+
+Valve is about to win the console generation
+Tags: tech, valve, kde, hardware, gaming, desktop
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consume…
+   URL: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+   FULL ARTICLE:
+Title: Web Review, Week 2025-46 - ervin
+
+URL Source: https://ervin.ipsquad.net/blog/2025/11/14/web-review-week-2025-46/
+
+Markdown Content:
+Let’s go for my web review for the week 2025-46.
+
+* * *
+
+#### Valve is about to win the console generation
+
+_Tags: tech, valve, kde, hardware, gaming, desktop_
+
+Early days, we’ll need to see the pricing and reviews. I’m obviously excited to see KDE going in even more consumer devices by default. Let’s hope it sells even better than the Steam Deck.
+
+[https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/](https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/)
+
+#### Meta’s Chief AI Scientist Yann LeCun To Depart And Launch AI Start-Up Focused On ‘World Models’
+
+_Tags: tech, business, ai, machine-learning, gpt_
+
+I was actually wondering when this would happen. Was just a matter of time, would have expected this move a couple of months ago.
+
+[https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models](https://www.nasdaq.com/articles/metas-chief-ai-scientist-yann-lecun-depart-and-launch-ai-start-focused-world-models)
+
+#### Less is More: Recursive Reasoning with Tiny Networks
+
+_Tags: tech, ai, machine-learning, reasoning, research_
+
+Clearly needs further exploration. I’d like to see it submitted in a peer reviewed journal but maybe that will come. Still it’s nice to see people for new approaches. It’s a breath of fresh air. I like it when there are actual research rather than hype. Hopefully the days of the “scale it up and magic will happen” are counted.
+
+[https://arxiv.org/abs/2510.04871](https://arxiv.org/abs/2510.04871)
+
+#### Introduction to IncusOS
+
+_Tags: tech, virtualization, containers, infrastructure, linux, incus_
+
+I didn’t know about this project. This sounds interesting, smart use of mkosi to make an Incus tailored system.
+
+[https://linuxcontainers.org/incus-os/](https://linuxcontainers.org/incus-os/)
+
+#### Linux process priorities demystified
+
+_Tags: tech, linux, kernel, processes, multithreading_
+
+Does a nice job explaining how the scheduling can be investigated from outside the kernel. It is a good introduction on the topic.
+
+[https://www.sigma-star.at/blog/2022/02/linux-proc-prios/](https://www.sigma-star.at/blog/2022/02/linux-proc-prios/)
+
+#### Announcing Magika 1.0: now faster, smarter, and rebuilt in Rust
+
+_Tags: tech, filesystem, foss_
+
+Looks more and more like an interesting solution for file type detection.
+
+[https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1](https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1)
+
+#### The (lazy) Git UI You Didn’t Know You Need
+
+_Tags: tech, git, version-control, tools_
+
+Nice tour of LazyGit. I keep hearing good things about it, I should really try it.
+
+[https://www.bwplotka.dev/2025/lazygit/](https://www.bwplotka.dev/2025/lazygit/)
+
+#### Imperative to relational
+
+_Tags: tech, databases, sql, learning_
+
+Long but nice post about all the things you need to figure out about working with databases when the only thing you know is imperative languages.
+
+[https://madhadron.com/imperative_to_relational.html](https://madhadron.com/imperative_to_relational.html)
+
+#### Automated Equality Checks in C++ with Reflection (C++26)
+
+_Tags: tech, c++, metaprogramming_
+
+Another nice use of the upcoming C++ reflection feature.
+
+[https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/](https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/)
+
+#### Hardening the C++ Standard Library at massive scale
+
+_Tags: tech, c++, safety, security, standard_
+
+Interesting work from Apple and Google to have better hardening in libc++. It’s nice to see it ripples through the upcoming C++26 standard as well.
+
+[https://queue.acm.org/detail.cfm?id=3773097](https://queue.acm.org/detail.cfm?id=3773097)
+
+#### channels-console: Real-time monitoring, metrics and logs for Rust channels
+
+_Tags: tech, rust, debugging, distributed, multithreading_
+
+Early days but this looks like interesting tooling to inspect and debug programs using Rust channels.
+
+[https://github.com/pawurb/channels-console](https://github.com/pawurb/channels-console)
+
+#### The state of the Rust dependency ecosystem
+
+_Tags: tech, rust, ecosystem, supply-chain_
+
+Interesting analysis of the crates ecosystem. It shows quite well some of the challenges and weaknesses. Nothing to worry about yet about the ecosystem health overall. Still, you should probably be careful when picking dependencies.
+
+[https://00f.net/2025/10/17/state-of-the-rust-ecosystem/](https://00f.net/2025/10/17/state-of-the-rust-ecosystem/)
+
+#### GPU Glossary
+
+_Tags: tech, gpu, hardware, learning_
+
+Looks heavy on the NVidia specifics but it looks like a very comprehensive view of the important concepts in a GPU.
+
+[https://modal.com/gpu-glossary](https://modal.com/gpu-glossary)
+
+#### The “Dependency Cutout” Workflow Pattern
+
+_Tags: tech, foss, economics, supply-chain, community_
+
+This is indeed the best way to handle your open source dependencies. I got concerns about the ability to sell that to management though because of the extra steps. It’s also probably why you want to have an OSPO in your company, it’s a good way to lower the barrier for developers to contribute this way.
+
+[https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html](https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html)
+
+#### 100% coverage is not that trivial
+
+_Tags: tech, tests, tdd, coverage_
+
+In a large codebase it’s not a given indeed. That’s why you want integration tests to get there.
+
+[https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/](https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/)
+
+#### Composable Tests
+
+_Tags: tech, tests, tdd_
+
+This is maybe the property of tests which is the most easily misunderstood. It’s not always easy to respect it as well.
+
+[https://tidyfirst.substack.com/p/composable-tests](https://tidyfirst.substack.com/p/composable-tests)
+
+#### Forget Chatbots. You Need a Notebook.
+
+_Tags: tech, note-taking, science, research, productivity_
+
+I had a few moment like this in my life. I definitely recommend it. I’ve never been more productive than isolated in a mountain with only books, notebooks and pens.
+
+[https://calnewport.com/forget-chatbots-you-need-a-notebook/](https://calnewport.com/forget-chatbots-you-need-a-notebook/)
+
+* * *
+
+Bye for now!
+
+======================================================================
+LLM prompts saved separately at: ./generated_scripts/scripts_nvidia_new_gpu_20251115_150427_llm_prompt.txt
+
+======================================================================
+
+======================================================================
+SCRIPT #1 - NVIDIA's New GPU: A Game-Changer for Gamers and Creators
+======================================================================
+
+⏱️  DURATION: 30 seconds
+📱 PLATFORM: Tiktok
+🎯 TARGET AUDIENCE: General audience interested in tech, gaming, and creative content
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SCRIPT:
+
+[0-3 seconds] HOOK:
+What if I told you NVIDIA just changed the game forever?
+
+[3-25 seconds] MAIN CONTENT:
+  1. NVIDIA's latest GPU is here, and it's a beast.
+  2. Packed with cutting-edge technology, it's a dream for gamers.
+  3. Creators, you're in for a treat with this powerhouse.
+  4. Imagine rendering times cut in half, that's the magic.
+  5. From 4K gaming to AI-powered creativity, it does it all.
+  6. Early reviews are in, and they're off the charts.
+  7. Pricing details are still under wraps, but it's worth the wait.
+  8. Get ready to experience graphics like never before.
+  9. This GPU is not just an upgrade, it's a revolution.
+  10. Don't miss out on the future of computing.
+
+[25-30 seconds] CALL TO ACTION:
+Hit that follow button and stay tuned for more tech news!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HASHTAGS: #NVIDIAGPU #Gaming #TechNews #Creators #Innovation
+
+======================================================================

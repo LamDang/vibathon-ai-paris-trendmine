@@ -7,7 +7,7 @@ import json
 import os
 from datetime import datetime
 from typing import List, Dict, Optional
-from video_idea_generator import VideoIdeaGenerator, SocialPlatform, VideoIdea
+from generate_scripts import VideoIdeaGenerator, SocialPlatform, VideoIdea
 from topic_manager import TopicManager, Topic
 
 # Load environment variables from .env file
@@ -346,4 +346,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

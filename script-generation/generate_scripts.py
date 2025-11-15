@@ -8,16 +8,400 @@ import sys
 import json
 import os
 from datetime import datetime
-from typing import List, Dict
+from typing import List, Dict, Optional
 import re
 from html import unescape
+from dataclasses import dataclass
+from enum import Enum
+from abc import ABC, abstractmethod
 
 import requests
 from dotenv import load_dotenv
 
-from video_idea_generator import VideoIdeaGenerator, SocialPlatform
-
 load_dotenv()
+
+
+class SocialPlatform(Enum):
+    """Supported social media platforms."""
+    TIKTOK = "tiktok"
+    INSTAGRAM_REELS = "instagram_reels"
+    YOUTUBE_SHORTS = "youtube_shorts"
+
+
+VIDEO_IDEAS_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "ideas": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {"type": "string"},
+                    "hook": {"type": "string", "maxLength": 200},
+                    "key_points": {
+                        "type": "array",
+                        "minItems": 5,
+                        "maxItems": 10,
+                        "items": {"type": "string"}
+                    },
+                    "cta": {"type": "string"},
+                    "hashtags": {"type": "array", "items": {"type": "string"}},
+                    "target_audience": {"type": "string"}
+                },
+                "required": [
+                    "title",
+                    "hook",
+                    "key_points",
+                    "cta",
+                    "hashtags",
+                    "target_audience"
+                ],
+                "additionalProperties": False
+            }
+        }
+    },
+    "required": ["ideas"],
+    "additionalProperties": False
+}
+
+RESPONSE_SCHEMA_NAME = "video_ideas_response"
+BASE_SCRIPT_CONTEXT = (
+    "Each video should be designed for exactly 30 seconds duration. "
+    "Provide 5-10 key points per idea, each being a full sentence of 10-15 words. "
+    "Make sure those key points form a single flowing story, so each sentence connects logically to the next. "
+    "Hooks must be extremely catchy, curiosity-driven, and under 12 words."
+)
+
+
+@dataclass
+class VideoIdea:
+    """Represents a generated video idea."""
+    title: str
+    hook: str
+    key_points: List[str]
+    cta: str
+    duration: str
+    platform: SocialPlatform
+    hashtags: List[str]
+    target_audience: str
+
+
+class AIClient(ABC):
+    """Abstract base class for AI providers."""
+
+    @abstractmethod
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float,
+        max_tokens: int,
+        response_format: Optional[Dict] = None
+    ) -> str:
+        """Generate text using provider."""
+
+
+class OpenAIClient(AIClient):
+    """OpenAI API client."""
+
+    def __init__(self, api_key: str, model: str = "gpt-4"):
+        self.model = model
+        try:
+            from openai import OpenAI
+            self.client = OpenAI(api_key=api_key)
+        except ImportError as exc:
+            raise ImportError("OpenAI package not installed. Run: pip install openai") from exc
+
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float,
+        max_tokens: int,
+        response_format: Optional[Dict] = None
+    ) -> str:
+        params = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        if response_format:
+            params["response_format"] = response_format
+        response = self.client.chat.completions.create(**params)
+        content = response.choices[0].message.content
+        if isinstance(content, list):
+            content = "".join(
+                part.get("text", "") if isinstance(part, dict) else str(part)
+                for part in content
+            )
+        return content
+
+
+class MistralClient(AIClient):
+    """Mistral AI API client."""
+
+    def __init__(self, api_key: str, model: str = "mistral-small-latest"):
+        self.model = model
+        try:
+            from mistralai import Mistral
+            self.client = Mistral(api_key=api_key)
+        except ImportError as exc:
+            raise ImportError("Mistral package not installed. Run: pip install mistralai") from exc
+
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float,
+        max_tokens: int,
+        response_format: Optional[Dict] = None
+    ) -> str:
+        params = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        if response_format:
+            params["response_format"] = response_format
+        response = self.client.chat.complete(**params)
+        return response.choices[0].message.content
+
+
+class GeminiClient(AIClient):
+    """Google Gemini API client."""
+
+    def __init__(self, api_key: str, model: str = "gemini-1.5-flash"):
+        self.model = model
+        try:
+            import google.generativeai as genai
+            genai.configure(api_key=api_key)
+            self.client = genai.GenerativeModel(model)
+        except ImportError as exc:
+            raise ImportError(
+                "Google Generative AI package not installed. Run: pip install google-generativeai"
+            ) from exc
+
+    def generate(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        temperature: float,
+        max_tokens: int,
+        response_format: Optional[Dict] = None
+    ) -> str:
+        full_prompt = f"{system_prompt}\n\n{user_prompt}"
+        generation_config = {"temperature": temperature, "max_output_tokens": max_tokens}
+        if response_format:
+            mime_type = response_format.get("mime_type")
+            if mime_type:
+                generation_config["response_mime_type"] = mime_type
+            schema = response_format.get("schema")
+            if schema:
+                generation_config["response_schema"] = schema
+        response = self.client.generate_content(full_prompt, generation_config=generation_config)
+        return response.text
+
+
+class VideoIdeaGenerator:
+    """Main class for generating video ideas using AI."""
+
+    def __init__(
+        self,
+        provider: str = "mistral",
+        api_key: Optional[str] = None,
+        model: Optional[str] = None
+    ):
+        self.provider_name = provider.lower()
+        if not api_key:
+            if self.provider_name == "openai":
+                api_key = os.getenv("OPENAI_API_KEY")
+            elif self.provider_name == "mistral":
+                api_key = os.getenv("MISTRAL_API_KEY")
+            elif self.provider_name == "gemini":
+                api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+            else:
+                raise ValueError(f"Unsupported provider: {provider}")
+        if not api_key:
+            raise ValueError(
+                "API key must be provided or set in the environment:\n"
+                "  OpenAI: OPENAI_API_KEY\n"
+                "  Mistral: MISTRAL_API_KEY\n"
+                "  Gemini: GEMINI_API_KEY or GOOGLE_API_KEY"
+            )
+        default_models = {
+            "openai": "gpt-4",
+            "mistral": "mistral-small-latest",
+            "gemini": "gemini-1.5-flash"
+        }
+        if not model:
+            model = default_models.get(self.provider_name)
+        if self.provider_name == "openai":
+            self.client = OpenAIClient(api_key, model)
+        elif self.provider_name == "mistral":
+            self.client = MistralClient(api_key, model)
+        elif self.provider_name == "gemini":
+            self.client = GeminiClient(api_key, model)
+        else:
+            raise ValueError(f"Unsupported provider: {provider}")
+        self.model = model
+        self.last_system_prompt: Optional[str] = None
+        self.last_user_prompt: Optional[str] = None
+        print(f"✅ Initialized {self.provider_name.title()} with model: {model}")
+
+    def generate_ideas(
+        self,
+        topic: str,
+        platform: SocialPlatform,
+        num_ideas: int = 3,
+        target_audience: Optional[str] = None,
+        tone: str = "engaging and authentic",
+        additional_context: Optional[str] = None
+    ) -> List[VideoIdea]:
+        prompt = self._build_prompt(
+            topic, platform, num_ideas, target_audience, tone, additional_context
+        )
+        system_prompt = (
+            "You are a creative social media content strategist specializing in viral video content. "
+            "You understand platform algorithms, trends, and what makes content engaging."
+        )
+        self.last_system_prompt = system_prompt
+        self.last_user_prompt = prompt
+        response_format = self._build_response_format()
+        content = self.client.generate(
+            system_prompt=system_prompt,
+            user_prompt=prompt,
+            temperature=0.8,
+            max_tokens=6000,
+            response_format=response_format
+        )
+        return self._parse_response(content, platform)
+
+    def _build_prompt(
+        self,
+        topic: str,
+        platform: SocialPlatform,
+        num_ideas: int,
+        target_audience: Optional[str],
+        tone: str,
+        additional_context: Optional[str]
+    ) -> str:
+        platform_specs = self._get_platform_specs(platform)
+        prompt = f"""Generate {num_ideas} creative video ideas for {platform.value.replace('_', ' ').title()}.
+
+TOPIC: {topic}
+
+PLATFORM SPECIFICATIONS:
+- Duration: {platform_specs['duration']}
+- Best practices: {platform_specs['best_practices']}
+
+TARGET AUDIENCE: {target_audience or "General audience interested in the topic"}
+
+TONE: {tone}
+"""
+        prompt += "\nADDITIONAL CONTEXT:\n"
+        prompt += f"{BASE_SCRIPT_CONTEXT}\n"
+        if additional_context:
+            prompt += f"\n{additional_context}\n"
+        prompt += """
+IMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. 
+DO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.
+
+For each idea, provide the following in JSON format:
+
+{
+  "ideas": [
+    {
+      "title": "Catchy title for the video",
+      "hook": "The exact words to say in the first 3 seconds to grab attention (≤12 words)",
+      "key_points": ["Full sentence 1 to narrate (10-15 words)", "...", "...", "...", "..."],
+      "cta": "The exact call to action to say at the end",
+      "hashtags": ["#hashtag1", "#hashtag2", "#hashtag3"],
+      "target_audience": "Specific target audience description"
+    }
+  ]
+}
+
+Make the scripts:
+- Written in natural, conversational spoken language
+- Full sentences that can be read aloud exactly as written
+- Engaging and authentic like you're talking to a friend
+- Attention-grabbing hooks that stop the scroll
+- Hooks must be very short (max 12 words) but punchy and curiosity-driving
+- Detailed enough to understand without seeing the video
+- Platform-optimized for short-form video
+- Provide 5-10 key_points for every idea
+- Each key_point must be a complete sentence of 10-15 words, not a fragment
+- Key_points should read like sequential narration, with each sentence advancing the same mini-story
+"""
+        return prompt
+
+    def _build_response_format(self) -> Optional[Dict]:
+        if self.provider_name in ("openai", "mistral"):
+            return {
+                "type": "json_schema",
+                "json_schema": {"name": RESPONSE_SCHEMA_NAME, "schema": VIDEO_IDEAS_JSON_SCHEMA}
+            }
+        if self.provider_name == "gemini":
+            return {"mime_type": "application/json", "schema": VIDEO_IDEAS_JSON_SCHEMA}
+        return None
+
+    def _get_platform_specs(self, platform: SocialPlatform) -> Dict:
+        specs = {
+            SocialPlatform.TIKTOK: {
+                "duration": "15-60 seconds",
+                "best_practices": "Start with a strong hook, use trending sounds, add text overlays, keep it fast-paced"
+            },
+            SocialPlatform.INSTAGRAM_REELS: {
+                "duration": "15-90 seconds",
+                "best_practices": "Use trending audio, vertical format, eye-catching visuals, engage in first 3 seconds"
+            },
+            SocialPlatform.YOUTUBE_SHORTS: {
+                "duration": "15-60 seconds",
+                "best_practices": "Strong opening, clear value, encourage likes and subscribes, use captions"
+            },
+        }
+        return specs[platform]
+
+    def _parse_response(self, response: str, platform: SocialPlatform) -> List[VideoIdea]:
+        if "```json" in response:
+            response = response.split("```json")[1].split("```")[0]
+        elif "```" in response:
+            response = response.split("```")[1].split("```")[0]
+        json_start = response.find("{")
+        json_end = response.rfind("}") + 1
+        if json_start == -1 or json_end == 0:
+            raise ValueError("No valid JSON found in response")
+        json_str = response[json_start:json_end]
+        json_str = re.sub(r"[\x00-\x08\x0b-\x0c\x0e-\x1f\x7f]", "", json_str)
+        try:
+            data = json.loads(json_str)
+        except json.JSONDecodeError as exc:
+            raise ValueError(f"Failed to parse AI response: {exc}\nResponse snippet: {response[:500]}") from exc
+        platform_specs = self._get_platform_specs(platform)
+        ideas: List[VideoIdea] = []
+        for idea_data in data.get("ideas", []):
+            ideas.append(
+                VideoIdea(
+                    title=idea_data.get("title", ""),
+                    hook=idea_data.get("hook", ""),
+                    key_points=idea_data.get("key_points", []),
+                    cta=idea_data.get("cta", ""),
+                    duration=platform_specs["duration"],
+                    platform=platform,
+                    hashtags=idea_data.get("hashtags", []),
+                    target_audience=idea_data.get("target_audience", "")
+                )
+            )
+        return ideas
 
 NEWS_API_TOP_HEADLINES_ENDPOINT = "https://newsapi.org/v2/top-headlines"
 NEWS_API_EVERYTHING_ENDPOINT = "https://newsapi.org/v2/everything"

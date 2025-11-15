@@ -107,7 +107,7 @@ def check_files():
     print("\n📁 Checking required files...\n")
     
     required_files = [
-        "video_idea_generator.py",
+        "generate_scripts.py",
         "topic_manager.py",
         "batch_generator.py",
         "templates.py",
@@ -212,7 +212,7 @@ def main():
         print("\n🎉 All checks passed! You're ready to go!")
         print("\n📚 Next steps:")
         print("   1. Run: python example.py")
-        print("   2. Or: python video_idea_generator.py 'Your Topic' --platform tiktok")
+        print("   2. Or: python generate_scripts.py 'Your Topic' --platform tiktok")
         print("   3. Check QUICKSTART.md for more examples")
     else:
         print("\n⚠️  Some checks failed. Please fix the issues above.")
@@ -228,4 +228,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-

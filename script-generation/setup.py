@@ -44,10 +44,9 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "video-ideas=video_idea_generator:main",
+            "video-ideas=generate_scripts:main",
             "topic-manager=topic_manager:main",
             "batch-generate=batch_generator:main",
         ],
     },
 )
-
