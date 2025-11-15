@@ -73,6 +73,11 @@ VIDEO_IDEAS_JSON_SCHEMA = {
 }
 
 RESPONSE_SCHEMA_NAME = "video_ideas_response"
+BASE_SCRIPT_CONTEXT = (
+    "Each video should be designed for exactly 30 seconds duration. "
+    "Provide 5-10 key points per idea, each being a full sentence of 10-15 words. "
+    "Hooks must be extremely catchy, curiosity-driven, and under 12 words."
+)
 
 
 @dataclass
@@ -321,6 +326,8 @@ class VideoIdeaGenerator:
             raise ValueError(f"Unsupported provider: {provider}")
         
         self.model = model
+        self.last_system_prompt: Optional[str] = None
+        self.last_user_prompt: Optional[str] = None
         print(f"✅ Initialized {self.provider_name.title()} with model: {model}")
     
     def generate_ideas(
@@ -351,6 +358,9 @@ class VideoIdeaGenerator:
         )
         
         system_prompt = "You are a creative social media content strategist specializing in viral video content. You understand platform algorithms, trends, and what makes content engaging."
+        
+        self.last_system_prompt = system_prompt
+        self.last_user_prompt = prompt
         
         response_format = self._build_response_format()
         
@@ -396,8 +406,10 @@ TARGET AUDIENCE: {target_audience or "General audience interested in the topic"}
 TONE: {tone}
 """
         
+        prompt += "\nADDITIONAL CONTEXT:\n"
+        prompt += f"{BASE_SCRIPT_CONTEXT}\n"
         if additional_context:
-            prompt += f"\nADDITIONAL CONTEXT: {additional_context}\n"
+            prompt += f"\n{additional_context}\n"
         
         prompt += """
 IMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. 

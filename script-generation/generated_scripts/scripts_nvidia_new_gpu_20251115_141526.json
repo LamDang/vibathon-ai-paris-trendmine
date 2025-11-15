@@ -1,0 +1,38 @@
+{
+  "topic": "nvidia new gpu",
+  "generated_at": "2025-11-15T14:15:26.676575",
+  "total_scripts": 1,
+  "duration": "30 seconds",
+  "news_articles": [],
+  "news_context": null,
+  "system_prompt": "You are a creative social media content strategist specializing in viral video content. You understand platform algorithms, trends, and what makes content engaging.",
+  "user_prompt": "Generate 1 creative video ideas for Tiktok.\n\nTOPIC: nvidia new gpu\n\nPLATFORM SPECIFICATIONS:\n- Duration: 15-60 seconds\n- Best practices: Start with a strong hook, use trending sounds, add text overlays, keep it fast-paced\n\nTARGET AUDIENCE: General audience interested in the topic\n\nTONE: engaging and authentic\n\nADDITIONAL CONTEXT:\nEach video should be designed for exactly 30 seconds duration. Provide 5-10 key points per idea, each being a full sentence of 10-15 words. Hooks must be extremely catchy, curiosity-driven, and under 12 words.\n\nIMPORTANT: Generate FULL NARRATION SCRIPTS that will be read word-for-word during the video. \nDO NOT generate outlines or bullet points. Write complete sentences that flow naturally as spoken audio.\n\nFor each idea, provide the following in JSON format:\n\n{\n  \"ideas\": [\n    {\n      \"title\": \"Catchy title for the video\",\n      \"hook\": \"The exact words to say in the first 3 seconds to grab attention (≤12 words)\",\n      \"key_points\": [\"Full sentence 1 to narrate (10-15 words)\", \"...\", \"...\", \"...\", \"...\"],\n      \"cta\": \"The exact call to action to say at the end\",\n      \"hashtags\": [\"#hashtag1\", \"#hashtag2\", \"#hashtag3\"],\n      \"target_audience\": \"Specific target audience description\"\n    }\n  ]\n}\n\nEXAMPLES OF FULL NARRATION SCRIPTS:\n\nExample 1 (Tech Topic):\n{\n  \"title\": \"Unlock the iPhone 15 Action Button\",\n  \"hook\": \"Stop scrolling, Action Button turns your iPhone into automation central.\",\n  \"key_points\": [\n    \"Assign the Action Button to run Home scenes, launching lights, music, thermostat.\",\n    \"Use Shortcuts stacks so one press fires focus mode, reminders, hydration timer.\",\n    \"Set a travel press to message ETA, enable driving focus, open Maps instantly.\",\n    \"Combine double presses with NFC tags to trigger security cameras and garage doors.\",\n    \"Record a Siri phrase that toggles custom actions when the button is held.\"\n  ],\n  \"cta\": \"Follow for tomorrow's tutorial showing exactly how to build these button stacks.\",\n  \"hashtags\": [\"#iPhone15\", \"#ActionButton\", \"#Automation\"],\n  \"target_audience\": \"iPhone owners who love smart home automations\"\n}\n\nExample 2 (Food Topic):\n{\n  \"title\": \"Creamiest Scrambled Eggs in Five Steps\",\n  \"hook\": \"These scrambled eggs finish like custard—here's the five-step routine.\",\n  \"key_points\": [\n    \"Start on low heat, stirring constantly so curds stay velvety and tiny.\",\n    \"Lift the pan off heat every fifteen seconds to halt overcooking instantly.\",\n    \"Fold in butter while whisking gently; it emulsifies air into ridiculous creaminess.\",\n    \"Finish with creme fraiche and chives, then season with flaky salt right away.\",\n    \"Serve immediately on warm plates so residual heat keeps them silky, never rubbery.\"\n  ],\n  \"cta\": \"Save this so breakfast tomorrow tastes like a hotel brunch at home.\",\n  \"hashtags\": [\"#CookingHacks\", \"#Breakfast\", \"#EggRecipes\"],\n  \"target_audience\": \"Home cooks craving fast gourmet breakfasts\"\n}\n\nExample 3 (Productivity Topic):\n{\n  \"title\": \"Two-Minute Priority List Reset\",\n  \"hook\": \"Need focus fast? This two-minute list trick saved my mornings.\",\n  \"key_points\": [\n    \"Before touching your phone, write the single mission that defines today's success.\",\n    \"Add two support tasks max so the brain sees achievable, finite commitments.\",\n    \"Circle the hardest task and start immediately, even if progress feels microscopic.\",\n    \"Review the list after lunch; cross-offs trigger dopamine that fuels afternoon momentum.\",\n    \"Capture stray ideas on another page so the core list stays sacred.\"\n  ],\n  \"cta\": \"Try it tomorrow and DM me if your focus finally sticks.\",\n  \"hashtags\": [\"#ProductivityHacks\", \"#MorningRoutine\", \"#FocusTips\"],\n  \"target_audience\": \"Busy students and professionals fighting scattered mornings\"\n}\n\nMake the scripts:\n- Written in natural, conversational spoken language\n- Full sentences that can be read aloud exactly as written\n- Engaging and authentic like you're talking to a friend\n- Attention-grabbing hooks that stop the scroll\n- Hooks must be very short (max 12 words) but punchy and curiosity-driving\n- Detailed enough to understand without seeing the video\n- Platform-optimized for short-form video\n- Provide 5-10 key_points for every idea\n- Each key_point must be a complete sentence of 10-15 words, not a fragment\n",
+  "scripts": [
+    {
+      "script_number": 1,
+      "title": "NVIDIA's New GPU: Gaming Revolution Unleashed",
+      "hook": "Gamers, this new GPU will blow your mind!",
+      "key_points": [
+        "NVIDIA's latest GPU promises unparalleled performance and stunning visuals.",
+        "Experience lifelike graphics with ray tracing that feels incredibly realistic.",
+        "The new architecture ensures smoother gameplay with higher frame rates.",
+        "DLSS 3.0 technology brings AI-powered upscaling for crisp, clear images.",
+        "With AI-powered features, your gaming experience will be more immersive than ever.",
+        "The GPU is designed to handle the most demanding games effortlessly.",
+        "Expect faster load times and seamless multitasking with this powerhouse.",
+        "Future-proof your gaming setup with cutting-edge technology and features.",
+        "The new GPU is not just for gaming; it's a powerhouse for content creators too."
+      ],
+      "cta": "Follow for more tech updates and gaming tips!",
+      "hashtags": [
+        "#NVIDIAGPU",
+        "#GamingRevolution",
+        "#TechNews",
+        "#GamingSetup",
+        "#DLSS3"
+      ],
+      "target_audience": "Gamers and tech enthusiasts interested in the latest hardware",
+      "platform": "tiktok"
+    }
+  ]
+}

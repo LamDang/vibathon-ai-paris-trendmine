@@ -1,0 +1,34 @@
+{
+  "topic": "nvidia new gpu",
+  "generated_at": "2025-11-15T13:26:43.680095",
+  "total_scripts": 1,
+  "duration": "30 seconds",
+  "scripts": [
+    {
+      "script_number": 1,
+      "title": "NVIDIA's New GPU: A Game Changer",
+      "hook": "This new NVIDIA GPU will blow your mind.",
+      "key_points": [
+        "NVIDIA's latest GPU is here, and it's a beast.",
+        "It's packed with cutting-edge technology that will revolutionize gaming.",
+        "The new architecture delivers unprecedented performance and efficiency.",
+        "With ray tracing and DLSS 3, games will look more realistic than ever.",
+        "The cooling system is top-notch, keeping your GPU running cool and quiet.",
+        "It's also energy-efficient, so you can game for hours without worrying about your electricity bill.",
+        "The new GPU supports all the latest technologies, like PCIe 4.0 and USB 4.0.",
+        "It's also future-proof, so you won't have to upgrade for years to come.",
+        "The price point is competitive, making it accessible to all gamers.",
+        "Whether you're a casual gamer or a hardcore enthusiast, this GPU is for you."
+      ],
+      "cta": "Follow us for more tech updates and don't forget to like and share!",
+      "hashtags": [
+        "#NVIDIA",
+        "#GPU",
+        "#Gaming",
+        "#TechNews"
+      ],
+      "target_audience": "General audience interested in gaming and technology",
+      "platform": "tiktok"
+    }
+  ]
+}

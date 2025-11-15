@@ -38,7 +38,7 @@ venv.bak/
 
 # Generated content
 generated_ideas/
-*.json
+
 !config.yaml
 
 # Logs
